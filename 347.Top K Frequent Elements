@@ -1,0 +1,27 @@
+class Solution {
+    public int[] topKFrequent(int[] nums, int k) {
+        int[] res = new int[k];
+        Map<Integer, Integer> count = new HashMap<>();
+        
+        for (int i : nums) {
+            count.put(i, count.getOrDefault(i, 0) + 1); // Fixed: getOrDefault capitalization
+        }
+        
+        Map<Integer, Integer> orderedCount = new LinkedHashMap<>();
+        
+        // Fixed: Map.Entry.<Integer, Integer>comparingByValue() with capital 'V'
+        count.entrySet().stream()
+            .sorted(Map.Entry.<Integer, Integer>comparingByValue(Comparator.reverseOrder()))
+            .forEachOrdered(x -> orderedCount.put(x.getKey(), x.getValue()));
+            
+        for (int j : orderedCount.keySet()) {
+            res[res.length - (k--)] = j; // Fixed: replaced 'i' with 'j'
+            if (k == 0) {
+                break;
+            } 
+        }
+        
+        System.out.println(orderedCount);
+        return res;
+    }
+}
