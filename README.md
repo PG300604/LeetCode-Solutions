@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=header&text=LeetCode%20Solutions&fontSize=34&fontColor=ffffff&fontAlignY=42&desc=Priyanshu%20Ghosh%20%7C%20Java%20%7C%20DSA%20Grind&descAlignY=65&descSize=14&descColor=79b8ff&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=header&text=LeetCode%20Solutions&fontSize=34&fontColor=ffffff&fontAlignY=42&desc=Priyanshu%20Ghosh%20%7C%20Java%20%7C%20NeetCode%20150&descAlignY=65&descSize=14&descColor=79b8ff&animation=fadeIn" width="100%"/>
 </div>
 
 <br/>
@@ -8,14 +8,11 @@
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-priyanshughosh30-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/priyanshughosh30/)
 [![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
+[![NeetCode 150](https://img.shields.io/badge/List-NeetCode_150-1A56DB?style=for-the-badge)](https://neetcode.io/practice)
 
 </div>
 
 <br/>
-
-<!-- ╔══════════════════════════════════════════════════════════════════╗
-     ║                       LIVE STATS DASHBOARD                      ║
-     ╚══════════════════════════════════════════════════════════════════╝ -->
 
 <div align="center">
 
@@ -33,74 +30,47 @@
 
 <br/>
 
-<!-- ╔══════════════════════════════════════════════════════════════════╗
-     ║                         PROGRESS TRACKER                        ║
-     ╚══════════════════════════════════════════════════════════════════╝ -->
+## 📋 About
 
-## 📊 Topic-Wise Progress
+This repository tracks my progress through the **[NeetCode 150](https://neetcode.io/practice)** — a curated list of the most important DSA patterns for technical interviews. Every solution is written in **Java**, with a focus on writing clean, readable code and understanding the underlying pattern rather than just passing test cases.
 
-<div align="center">
-
-| Topic | Status | Problems |
-|:---|:---:|:---:|
-| Arrays & Strings | 🟢 In Progress | — |
-| Hashing | 🟢 In Progress | — |
-| Two Pointers | ⬜ Not Started | — |
-| Sliding Window | ⬜ Not Started | — |
-| Linked List | ⬜ Not Started | — |
-| Stacks & Queues | ⬜ Not Started | — |
-| Binary Search | ⬜ Not Started | — |
-| Trees | ⬜ Not Started | — |
-| Graphs | ⬜ Not Started | — |
-| Dynamic Programming | ⬜ Not Started | — |
-| Greedy | ⬜ Not Started | — |
-| Heaps | ⬜ Not Started | — |
-| Backtracking | ⬜ Not Started | — |
-| Tries | ⬜ Not Started | — |
-
-</div>
-
-> Update the **Status** and **Problems** columns as you go. Use 🟢 In Progress, ✅ Complete, ⬜ Not Started.
+Solutions are named directly after the problem (e.g. `1. Two Sum.java`) and live flat in the repo root for quick browsing and quick updates.
 
 ---
 
 ## 📁 Repository Structure
 
 ```
-leetcode-solutions/
-├── 01-arrays-strings/
-│   ├── two-sum/
-│   │   ├── Solution.java
-│   │   └── README.md          # Problem link, approach, complexity
-│   └── ...
-├── 02-hashing/
-├── 03-two-pointers/
-├── 04-sliding-window/
-├── 05-linked-list/
-├── 06-stacks-queues/
-├── 07-binary-search/
-├── 08-trees/
-├── 09-graphs/
-├── 10-dynamic-programming/
-├── 11-greedy/
-├── 12-heaps/
-├── 13-backtracking/
-├── 14-tries/
+LeetCode-Solutions/
+├── 1. Two Sum.java
+├── 4. Median of Two Sorted Arrays.java
+├── 11. Container With Most Water.java
+├── 27. Remove Elements.java
+├── 26. Remove Duplicates.java
+├── 35. Search Index Position.java
+├── 49. Group Anagrams.java
+├── 121. Best Time To Buy and Sell Stock.java
+├── 169. Majority Element.java
+├── 218. Contains Duplicate.java
+├── 238. Product of Array Except Self.java
+├── 242. Valid Anagram.java
+├── 347. Top K Frequent Elements.java
+├── 877. Stone Game.java
 └── README.md
 ```
 
 ---
 
-## 📝 Solution Template
+## 📝 Solution Format
 
-Each problem folder follows this format:
+Each file is self-contained and follows this pattern:
 
-**`Solution.java`**
 ```java
 /**
  * LeetCode #1 - Two Sum
  * https://leetcode.com/problems/two-sum/
  *
+ * Pattern: Hashing
  * Time Complexity:  O(n)
  * Space Complexity: O(n)
  */
@@ -119,41 +89,54 @@ class Solution {
 }
 ```
 
-**`README.md`** *(per problem, optional but recommended)*
-```markdown
-## Two Sum
-**Difficulty:** Easy
-**Pattern:** Hashing
+---
 
-### Approach
-Use a HashMap to store seen values and their indices. For each number,
-check if its complement (target - num) already exists in the map.
+## 📌 Problems Solved
 
-### Complexity
-- Time: O(n)
-- Space: O(n)
-```
+| # | Problem | Pattern | Difficulty |
+|---|---------|---------|:---:|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Hashing | 🟢 Easy |
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Binary Search | 🔴 Hard |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Two Pointers | 🟡 Medium |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Two Pointers | 🟢 Easy |
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | Two Pointers | 🟢 Easy |
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Binary Search | 🟢 Easy |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Hashing | 🟡 Medium |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Sliding Window | 🟢 Easy |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Arrays | 🟢 Easy |
+| 218 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Hashing | 🟢 Easy |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Arrays | 🟡 Medium |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Hashing | 🟢 Easy |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Heap | 🟡 Medium |
+| 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | Dynamic Programming | 🟡 Medium |
+
+<!-- Add new rows above this line as you solve more problems -->
 
 ---
 
-## 📌 Recently Solved
-
-<!-- Update this table manually as you solve problems -->
-
-| # | Problem | Difficulty | Pattern | Solution |
-|---|---------|:---:|---|---|
-| 1 | Two Sum | 🟢 Easy | Hashing | [Link](./01-arrays-strings/two-sum/) |
-
-<!-- Add new rows above this line as you go -->
-
----
-
-## 🎯 Current Goal
+## 🎯 NeetCode 150 Progress
 
 ```
-[▓▓░░░░░░░░░░░░░░░░░░]  Target: 150 problems before internship season
-Focus: Arrays, Hashing, Two Pointers, Sliding Window (interview-critical patterns)
+[▓▓░░░░░░░░░░░░░░░░░░]  14 / 150 solved
 ```
+
+| Pattern | Status |
+|:---|:---:|
+| Arrays & Hashing | 🟢 In Progress |
+| Two Pointers | 🟢 In Progress |
+| Sliding Window | 🟢 In Progress |
+| Stack | ⬜ Not Started |
+| Binary Search | 🟢 In Progress |
+| Linked List | ⬜ Not Started |
+| Trees | ⬜ Not Started |
+| Heap / Priority Queue | 🟢 In Progress |
+| Backtracking | ⬜ Not Started |
+| Graphs | ⬜ Not Started |
+| Dynamic Programming | 🟢 In Progress |
+| Greedy | ⬜ Not Started |
+| Intervals | ⬜ Not Started |
+| Math & Geometry | ⬜ Not Started |
+| Bit Manipulation | ⬜ Not Started |
 
 ---
 
@@ -162,6 +145,7 @@ Focus: Arrays, Hashing, Two Pointers, Sliding Window (interview-critical pattern
 - 📄 [Data Structures and Algorithms: The Complete Masterclass](https://github.com/PG300604) — Udemy certification
 - 💼 [Main GitHub Profile](https://github.com/PG300604)
 - 🔗 [LinkedIn](https://linkedin.com/in/priyanshu-ghosh-)
+- 🧩 [NeetCode 150 List](https://neetcode.io/practice)
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=80&section=footer" width="100%"/>
