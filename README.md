@@ -93,32 +93,36 @@ class Solution {
 
 ## 📌 Problems Solved
 
-| # | Problem | Pattern | Difficulty |
-|---|---------|---------|:---:|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Hashing | 🟢 Easy |
-| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Binary Search | 🔴 Hard |
-| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Two Pointers | 🟡 Medium |
-| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Two Pointers | 🟢 Easy |
-| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | Two Pointers | 🟢 Easy |
-| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Binary Search | 🟢 Easy |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Hashing | 🟡 Medium |
-| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Sliding Window | 🟢 Easy |
-| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Arrays | 🟢 Easy |
-| 218 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Hashing | 🟢 Easy |
-| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Arrays | 🟡 Medium |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Hashing | 🟢 Easy |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Heap | 🟡 Medium |
-| 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | Dynamic Programming | 🟡 Medium |
+<!-- PROBLEMS_TABLE_START -->
+| # | Problem | Difficulty |
+|---|---------|:---:|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy |
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy |
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy |
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy |
+| 218 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Medium |
+| 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
+<!-- PROBLEMS_TABLE_END -->
 
-<!-- Add new rows above this line as you solve more problems -->
+> This table updates **automatically** via GitHub Actions every time a new `.java` solution is pushed to `main`. No manual editing needed.
 
 ---
 
 ## 🎯 NeetCode 150 Progress
 
+<!-- PROGRESS_START -->
 ```
 [▓▓░░░░░░░░░░░░░░░░░░]  14 / 150 solved
 ```
+<!-- PROGRESS_END -->
 
 | Pattern | Status |
 |:---|:---:|
