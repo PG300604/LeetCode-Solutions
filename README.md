@@ -105,6 +105,7 @@ class Solution {
 | 35 | [Search Index Position](https://leetcode.com/problems/search-index-position/) | — |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium |
 | 121 | [Best Time To Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy |
 | 218 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium |
@@ -122,7 +123,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[▓▓░░░░░░░░░░░░░░░░░░]  16 / 150 solved
+[▓▓░░░░░░░░░░░░░░░░░░]  17 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
