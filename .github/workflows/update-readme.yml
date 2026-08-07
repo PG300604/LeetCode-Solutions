@@ -1,11 +1,14 @@
 name: Update README on New Solution
 
-# Runs every time a .java file is added or changed on main
+# Runs automatically when a .java file is pushed to main,
+# and can also be triggered manually from the Actions tab
+# (useful for backfilling solutions committed before this workflow existed)
 on:
   push:
     branches: [main]
     paths:
       - "*.java"
+  workflow_dispatch:
 
 # Let the workflow push the updated README back to the repo
 permissions:
