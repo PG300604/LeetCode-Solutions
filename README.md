@@ -51,6 +51,7 @@ LeetCode-Solutions/
 ├── 34. Find First and Last Position of Element in Sorted Array.java
 ├── 35.Search Index Position.java
 ├── 49. Group Anagrams.java
+├── 66. Plus One.java
 ├── 121.Best Time To Buy and Sell Stock.java
 ├── 128.Longest Consecutive Sequence.java
 ├── 169.Majority Element.java
@@ -111,6 +112,7 @@ class Solution {
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium |
 | 35 | [Search Index Position](https://leetcode.com/problems/search-index-position/) | — |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy |
 | 121 | [Best Time To Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy |
@@ -130,7 +132,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[▓▓░░░░░░░░░░░░░░░░░░]  17 / 150 solved
+[▓▓░░░░░░░░░░░░░░░░░░]  18 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
