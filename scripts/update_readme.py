@@ -25,6 +25,8 @@ TABLE_START = "<!-- PROBLEMS_TABLE_START -->"
 TABLE_END = "<!-- PROBLEMS_TABLE_END -->"
 PROGRESS_START = "<!-- PROGRESS_START -->"
 PROGRESS_END = "<!-- PROGRESS_END -->"
+STRUCTURE_START = "<!-- STRUCTURE_START -->"
+STRUCTURE_END = "<!-- STRUCTURE_END -->"
 
 TOTAL_NEETCODE_150 = 150
 
@@ -106,6 +108,29 @@ def build_table():
     return table_md, count
 
 
+def build_structure():
+    """
+    Builds a live file-tree block listing every .java solution
+    file currently in the repo root, sorted by problem number.
+    """
+    files = glob.glob("*.java")
+    parsed = []
+    for f in files:
+        number, title = parse_filename(f)
+        if number:
+            parsed.append((int(number), f))
+    parsed.sort(key=lambda x: x[0])
+
+    lines = ["LeetCode-Solutions/"]
+    for i, (_, filename) in enumerate(parsed):
+        is_last_file = (i == len(parsed) - 1)
+        connector = "└──" if is_last_file else "├──"
+        lines.append(f"{connector} {filename}")
+    lines.append("└── README.md")
+
+    return "```\n" + "\n".join(lines) + "\n```"
+
+
 def build_progress_bar(count: int) -> str:
     filled = int((count / TOTAL_NEETCODE_150) * 20)
     bar = "▓" * filled + "░" * (20 - filled)
@@ -118,6 +143,7 @@ def update_readme():
 
     table_md, count = build_table()
     progress_md = build_progress_bar(count)
+    structure_md = build_structure()
 
     # Replace problems table
     content = re.sub(
@@ -131,6 +157,14 @@ def update_readme():
     content = re.sub(
         f"{re.escape(PROGRESS_START)}.*?{re.escape(PROGRESS_END)}",
         f"{PROGRESS_START}\n{progress_md}\n{PROGRESS_END}",
+        content,
+        flags=re.DOTALL,
+    )
+
+    # Replace repository structure tree
+    content = re.sub(
+        f"{re.escape(STRUCTURE_START)}.*?{re.escape(STRUCTURE_END)}",
+        f"{STRUCTURE_START}\n{structure_md}\n{STRUCTURE_END}",
         content,
         flags=re.DOTALL,
     )
