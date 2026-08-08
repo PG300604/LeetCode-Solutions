@@ -55,6 +55,7 @@ LeetCode-Solutions/
 ├── 121.Best Time To Buy and Sell Stock.java
 ├── 125.Valid Pallindrome.java
 ├── 128.Longest Consecutive Sequence.java
+├── 167.Two Sum II - Input Array is Sorted.java
 ├── 169.Majority Element.java
 ├── 218. Contains Duplicate.java
 ├── 238.Product of Array Except Self.java
@@ -117,6 +118,7 @@ class Solution {
 | 121 | [Best Time To Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy |
 | 125 | [Valid Pallindrome](https://leetcode.com/problems/valid-pallindrome/) | — |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium |
+| 167 | [Two Sum II - Input Array is Sorted](https://leetcode.com/problems/two-sum-ii---input-array-is-sorted/) | — |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy |
 | 218 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium |
@@ -134,7 +136,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[▓▓░░░░░░░░░░░░░░░░░░]  19 / 150 solved
+[▓▓░░░░░░░░░░░░░░░░░░]  20 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
