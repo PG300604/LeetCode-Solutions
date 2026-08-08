@@ -53,6 +53,7 @@ LeetCode-Solutions/
 ├── 49. Group Anagrams.java
 ├── 66. Plus One.java
 ├── 121.Best Time To Buy and Sell Stock.java
+├── 125.Valid Pallindrome.java
 ├── 128.Longest Consecutive Sequence.java
 ├── 169.Majority Element.java
 ├── 218. Contains Duplicate.java
@@ -114,6 +115,7 @@ class Solution {
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy |
 | 121 | [Best Time To Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy |
+| 125 | [Valid Pallindrome](https://leetcode.com/problems/valid-pallindrome/) | — |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy |
 | 218 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy |
@@ -132,7 +134,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[▓▓░░░░░░░░░░░░░░░░░░]  18 / 150 solved
+[▓▓░░░░░░░░░░░░░░░░░░]  19 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
