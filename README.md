@@ -46,6 +46,7 @@ LeetCode-Solutions/
 ├── 1. Two Sum.java
 ├── 4.Median of Two Sorted Arrays.java
 ├── 11. Container With Most Water.java
+├── 15. 3Sum.java
 ├── 26.Remove Duplicates.java
 ├── 27. Remove Elements.java
 ├── 34. Find First and Last Position of Element in Sorted Array.java
@@ -109,6 +110,7 @@ class Solution {
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium |
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 Medium |
 | 26 | [Remove Duplicates](https://leetcode.com/problems/remove-duplicates/) | — |
 | 27 | [Remove Elements](https://leetcode.com/problems/remove-elements/) | — |
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium |
@@ -136,7 +138,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[▓▓░░░░░░░░░░░░░░░░░░]  20 / 150 solved
+[▓▓░░░░░░░░░░░░░░░░░░]  21 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
