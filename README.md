@@ -49,6 +49,7 @@ LeetCode-Solutions/
 ├── 15. 3Sum.java
 ├── 26.Remove Duplicates.java
 ├── 27. Remove Elements.java
+├── 32.Trapping Rain Water.java
 ├── 34. Find First and Last Position of Element in Sorted Array.java
 ├── 35.Search Index Position.java
 ├── 49. Group Anagrams.java
@@ -108,27 +109,28 @@ class Solution {
 <!-- PROBLEMS_TABLE_START -->
 | # | Problem | Difficulty |
 |---|---------|:---:|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | — |
-| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | — |
-| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | — |
-| 15 | [3Sum](https://leetcode.com/problems/3sum/) | — |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy |
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium |
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 Medium |
 | 26 | [Remove Duplicates](https://leetcode.com/problems/remove-duplicates/) | — |
 | 27 | [Remove Elements](https://leetcode.com/problems/remove-elements/) | — |
-| 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | — |
+| 32 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Hard |
+| 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium |
 | 35 | [Search Index Position](https://leetcode.com/problems/search-index-position/) | — |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | — |
-| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | — |
-| 121 | [Best Time To Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | — |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy |
+| 121 | [Best Time To Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy |
 | 125 | [Valid Pallindrome](https://leetcode.com/problems/valid-pallindrome/) | — |
-| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | — |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium |
 | 167 | [Two Sum II - Input Array is Sorted](https://leetcode.com/problems/two-sum-ii---input-array-is-sorted/) | — |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy |
 | 218 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | 🟢 Easy |
-| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | — |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | — |
-| 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | — |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Medium |
+| 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy |
 <!-- PROBLEMS_TABLE_END -->
 
@@ -140,7 +142,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[▓▓░░░░░░░░░░░░░░░░░░]  22 / 150 solved
+[▓▓▓░░░░░░░░░░░░░░░░░]  23 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
