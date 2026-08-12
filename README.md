@@ -64,6 +64,7 @@ LeetCode-Solutions/
 ├── 238.Product of Array Except Self.java
 ├── 242. Valid Anagram.java
 ├── 347.Top K Frequent Elements.java
+├── 643. Maximum Average Subarray.java
 ├── 877.Stone Game.java
 └── 3731.Find Missing Elements.java
 └── README.md
@@ -130,6 +131,7 @@ class Solution {
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Medium |
+| 643 | [Maximum Average Subarray](https://leetcode.com/problems/maximum-average-subarray/) | — |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy |
 <!-- PROBLEMS_TABLE_END -->
@@ -142,7 +144,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[▓▓▓░░░░░░░░░░░░░░░░░]  23 / 150 solved
+[▓▓▓░░░░░░░░░░░░░░░░░]  24 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
