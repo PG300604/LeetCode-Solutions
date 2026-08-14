@@ -43,6 +43,31 @@ Solutions are named directly after the problem (e.g. `1. Two Sum.java`) and live
 <!-- STRUCTURE_START -->
 ```
 LeetCode-Solutions/
+├── 1. Two Sum.java
+├── 4.Median of Two Sorted Arrays.java
+├── 11. Container With Most Water.java
+├── 15. 3Sum.java
+├── 26.Remove Duplicates.java
+├── 27. Remove Elements.java
+├── 32.Trapping Rain Water.java
+├── 34. Find First and Last Position of Element in Sorted Array.java
+├── 35.Search Index Position.java
+├── 49. Group Anagrams.java
+├── 66. Plus One.java
+├── 121.Best Time To Buy and Sell Stock.java
+├── 125.Valid Pallindrome.java
+├── 128.Longest Consecutive Sequence.java
+├── 167.Two Sum II - Input Array is Sorted.java
+├── 169.Majority Element.java
+├── 218. Contains Duplicate.java
+├── 219. Contains Duplicate II.java
+├── 238.Product of Array Except Self.java
+├── 242. Valid Anagram.java
+├── 347.Top K Frequent Elements.java
+├── 643. Maximum Average Subarray.java
+├── 877.Stone Game.java
+├── 2235. Add Two Integers.java
+└── 3731.Find Missing Elements.java
 └── README.md
 ```
 <!-- STRUCTURE_END -->
@@ -86,6 +111,31 @@ class Solution {
 <!-- PROBLEMS_TABLE_START -->
 | # | Problem | Difficulty |
 |---|---------|:---:|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | — |
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | — |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | — |
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) | — |
+| 26 | [Remove Duplicates](https://leetcode.com/problems/remove-duplicates/) | — |
+| 27 | [Remove Elements](https://leetcode.com/problems/remove-elements/) | — |
+| 32 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | — |
+| 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | — |
+| 35 | [Search Index Position](https://leetcode.com/problems/search-index-position/) | — |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | — |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | — |
+| 121 | [Best Time To Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | — |
+| 125 | [Valid Pallindrome](https://leetcode.com/problems/valid-pallindrome/) | — |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | — |
+| 167 | [Two Sum II - Input Array is Sorted](https://leetcode.com/problems/two-sum-ii---input-array-is-sorted/) | — |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | — |
+| 218 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | — |
+| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | — |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | — |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | — |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | — |
+| 643 | [Maximum Average Subarray](https://leetcode.com/problems/maximum-average-subarray/) | — |
+| 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | — |
+| 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | — |
+| 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | — |
 <!-- PROBLEMS_TABLE_END -->
 
 > This table updates **automatically** via GitHub Actions every time a new `.java` solution is pushed to `main`, using LeetCode's own search API to fetch the correct title, link, and difficulty — even if the filename has typos or shorthand.
@@ -96,13 +146,28 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[░░░░░░░░░░░░░░░░░░░░]  0 / 150 solved
+[▓▓▓░░░░░░░░░░░░░░░░░]  25 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
 <!-- PATTERN_TABLE_START -->
 | Pattern | Status |
 |:---|:---:|
+| Two Pointers | ⬜ Not Started |
+| Sliding Window | ⬜ Not Started |
+| Stack | ⬜ Not Started |
+| Binary Search | ⬜ Not Started |
+| Linked List | ⬜ Not Started |
+| Trees | ⬜ Not Started |
+| Heap / Priority Queue | ⬜ Not Started |
+| Backtracking | ⬜ Not Started |
+| Graphs | ⬜ Not Started |
+| Dynamic Programming | ⬜ Not Started |
+| Greedy | ⬜ Not Started |
+| Intervals | ⬜ Not Started |
+| Bit Manipulation | ⬜ Not Started |
+| Math & Geometry | ⬜ Not Started |
+| Arrays & Hashing | ⬜ Not Started |
 <!-- PATTERN_TABLE_END -->
 
 > Pattern status is auto-detected from each solved problem's official LeetCode topic tags — no manual editing needed.
