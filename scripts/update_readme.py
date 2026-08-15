@@ -7,16 +7,17 @@ Scans the repo root for LeetCode solution files named like:
 
 For each file:
   - Extracts the problem number and title from the filename
-  - Uses LeetCode's own search API to find the best-matching problem
-    (robust to typos/abbreviations in the filename — e.g. "Pallindrome",
-    "Remove Elements" vs "Remove Element", "Search Index Position" vs
-    "Search Insert Position")
-  - Pulls the OFFICIAL title, correct URL slug, difficulty, and topic tags
-  - Regenerates three sections inside README.md, each between its own
-    marker comments:
+  - Resolves the correct LeetCode URL slug using a manual override table
+    (falls back to a best-guess slug if not in the table)
+  - Queries LeetCode's STABLE single-question GraphQL endpoint (much more
+    reliable than the search/list endpoint, which frequently blocks
+    automated requests or changes schema without notice)
+  - Pulls difficulty + topic tags, then regenerates:
         1. Problems Solved table
         2. Progress bar
         3. NeetCode-pattern status table (auto-detected from topic tags)
+        4. Repository structure tree
+    inside README.md, each between its own marker comments.
 
 Run with: python scripts/update_readme.py
 """
@@ -46,8 +47,46 @@ DIFFICULTY_EMOJI = {
     "HARD": "🔴 Hard",
 }
 
-# Ordered list of (Category label, [topic tag slugs that count as this category])
-# A problem is grouped into the FIRST category whose tag it matches.
+HEADERS = {
+    "Content-Type": "application/json",
+    "Referer": "https://leetcode.com",
+    "Origin": "https://leetcode.com",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+}
+
+# Manual overrides: normalized filename title -> correct LeetCode slug.
+# This avoids depending on LeetCode's fragile fuzzy-search endpoint —
+# lookups go straight to the stable single-question query instead.
+# Add new entries here whenever a filename doesn't exactly match the
+# official LeetCode title.
+SLUG_OVERRIDES = {
+    "two sum": "two-sum",
+    "median of two sorted arrays": "median-of-two-sorted-arrays",
+    "container with most water": "container-with-most-water",
+    "3sum": "3sum",
+    "remove duplicates": "remove-duplicates-from-sorted-array",
+    "remove elements": "remove-element",
+    "trapping rain water": "trapping-rain-water",
+    "find first and last position of element in sorted array": "find-first-and-last-position-of-element-in-sorted-array",
+    "search index position": "search-insert-position",
+    "group anagrams": "group-anagrams",
+    "plus one": "plus-one",
+    "best time to buy and sell stock": "best-time-to-buy-and-sell-stock",
+    "valid pallindrome": "valid-palindrome",
+    "valid palindrome": "valid-palindrome",
+    "longest consecutive sequence": "longest-consecutive-sequence",
+    "two sum ii - input array is sorted": "two-sum-ii-input-array-is-sorted",
+    "majority element": "majority-element",
+    "contains duplicate": "contains-duplicate",
+    "contains duplicate ii": "contains-duplicate-ii",
+    "product of array except self": "product-of-array-except-self",
+    "valid anagram": "valid-anagram",
+    "top k frequent elements": "top-k-frequent-elements",
+    "maximum average subarray": "maximum-average-subarray-i",
+    "stone game": "stone-game",
+}
+
 CATEGORY_RULES = [
     ("Two Pointers",          ["two-pointers"]),
     ("Sliding Window",        ["sliding-window"]),
@@ -78,51 +117,64 @@ def parse_filename(filename: str):
     return number, title.strip()
 
 
-def search_leetcode(title: str):
+def naive_slug(title: str) -> str:
+    slug = title.lower().strip()
+    slug = re.sub(r"[^a-z0-9\s-]", "", slug)
+    slug = re.sub(r"\s+", "-", slug)
+    slug = re.sub(r"-+", "-", slug)
+    return slug
+
+
+def resolve_slug(title: str) -> str:
+    key = title.lower().strip()
+    if key in SLUG_OVERRIDES:
+        return SLUG_OVERRIDES[key]
+    return naive_slug(title)
+
+
+def fetch_question(slug: str):
     """
-    Uses LeetCode's own fuzzy search (problemsetQuestionList) to find the
-    best-matching problem for a given (possibly slightly wrong) title.
-    Returns dict with title, titleSlug, difficulty, topicTags — or None.
+    Queries LeetCode's stable single-question endpoint (question(titleSlug: ...)).
+    This endpoint is far more reliable for automated/CI use than the
+    search or list endpoints, which frequently block bots or change shape.
     """
     query = {
         "query": """
-        query problemsetQuestionList($categorySlug: String, $limit: Int, $skip: Int, $filters: QuestionListFilterInput) {
-          questionList: problemsetQuestionListV2(
-            categorySlug: $categorySlug
-            limit: $limit
-            skip: $skip
-            filters: $filters
-          ) {
-            questions {
-              title
-              titleSlug
-              difficulty
-              topicTags { slug }
-            }
+        query getQuestionDetail($titleSlug: String!) {
+          question(titleSlug: $titleSlug) {
+            title
+            difficulty
+            topicTags { slug }
           }
         }
         """,
-        "variables": {
-            "categorySlug": "",
-            "limit": 1,
-            "skip": 0,
-            "filters": {"searchKeywords": title},
-        },
+        "variables": {"titleSlug": slug},
     }
-    try:
-        res = requests.post(
-            "https://leetcode.com/graphql",
-            json=query,
-            headers={"Content-Type": "application/json", "Referer": "https://leetcode.com"},
-            timeout=15,
-        )
-        data = res.json()
-        questions = data["data"]["questionList"]["questions"]
-        if not questions:
-            return None
-        return questions[0]
-    except Exception:
-        return None
+
+    for attempt in range(2):
+        try:
+            res = requests.post(
+                "https://leetcode.com/graphql",
+                json=query,
+                headers=HEADERS,
+                timeout=15,
+            )
+            if res.status_code != 200:
+                print(f"  [warn] slug='{slug}' HTTP {res.status_code} on attempt {attempt+1}")
+                time.sleep(1)
+                continue
+
+            data = res.json()
+            question = data.get("data", {}).get("question")
+            if question is None:
+                print(f"  [warn] slug='{slug}' returned no question (bad slug?)")
+                return None
+            return question
+        except Exception as e:
+            print(f"  [warn] slug='{slug}' request failed: {e}")
+            time.sleep(1)
+
+    return None
 
 
 def categorize(topic_tags) -> str:
@@ -130,7 +182,7 @@ def categorize(topic_tags) -> str:
     for category, tag_list in CATEGORY_RULES:
         if slugs.intersection(tag_list):
             return category
-    return "Arrays & Hashing"  # safe default
+    return "Arrays & Hashing"
 
 
 def build_table_and_categories():
@@ -138,27 +190,24 @@ def build_table_and_categories():
     problems = []
     solved_categories = set()
 
-    for f in files:
+    for f in sorted(files):
         number, filename_title = parse_filename(f)
         if not number:
             continue
 
-        result = search_leetcode(filename_title)
-        time.sleep(0.3)  # be polite to LeetCode's API
+        slug = resolve_slug(filename_title)
+        print(f"Resolving #{number} '{filename_title}' -> slug '{slug}'")
+        question = fetch_question(slug)
+        time.sleep(0.4)  # be polite to LeetCode's API
 
-        if result:
-            official_title = result["title"]
-            slug = result["titleSlug"]
-            difficulty = DIFFICULTY_EMOJI.get(result["difficulty"].upper(), "—")
-            category = categorize(result.get("topicTags", []))
+        if question:
+            official_title = question["title"]
+            difficulty = DIFFICULTY_EMOJI.get(question["difficulty"].upper(), "—")
+            category = categorize(question.get("topicTags", []))
             solved_categories.add(category)
         else:
-            # Fallback: naive slug guess if search fails entirely
             official_title = filename_title
-            slug = re.sub(r"[^a-z0-9\s-]", "", filename_title.lower())
-            slug = re.sub(r"\s+", "-", slug.strip())
             difficulty = "—"
-            category = None
 
         url = f"https://leetcode.com/problems/{slug}/"
         problems.append((int(number), official_title, url, difficulty))
@@ -185,16 +234,18 @@ def build_structure():
     lines = ["LeetCode-Solutions/"]
     for i, (_, filename) in enumerate(parsed):
         is_last = i == len(parsed) - 1
-        connector = "└──" if is_last else "├──"
-        lines.append(f"{connector} {filename}")
-    lines.append("└── README.md")
+        connector = "+-- " if is_last else "|-- "
+        lines.append(f"{connector}{filename}")
+    lines.append("+-- README.md")
 
     return "```\n" + "\n".join(lines) + "\n```"
 
 
 def build_progress_bar(count: int) -> str:
+    # Plain ASCII bar — avoids unicode block characters mangling on some
+    # terminals/encodings (this replaced an earlier unicode-based bar).
     filled = int((count / TOTAL_NEETCODE_150) * 20)
-    bar = "▓" * filled + "░" * (20 - filled)
+    bar = "#" * filled + "-" * (20 - filled)
     return f"```\n[{bar}]  {count} / {TOTAL_NEETCODE_150} solved\n```"
 
 
@@ -232,7 +283,7 @@ def update_readme():
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(content)
 
-    print(f"README updated — {count} problems found, {len(solved_categories)} patterns touched.")
+    print(f"\nREADME updated — {count} problems found, {len(solved_categories)} patterns touched.")
 
 
 if __name__ == "__main__":
