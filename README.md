@@ -45,6 +45,7 @@ Solutions are named directly after the problem (e.g. `1. Two Sum.java`) and live
 LeetCode-Solutions/
 |-- 1. Two Sum.java
 |-- 4.Median of Two Sorted Arrays.java
+|-- 7. Reverse Integer.java
 |-- 11. Container With Most Water.java
 |-- 14. Longest Common Prefix.java
 |-- 15. 3Sum.java
@@ -114,6 +115,7 @@ class Solution {
 |---|---------|:---:|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 Medium |
@@ -148,7 +150,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[###-----------------]  26 / 150 solved
+[###-----------------]  27 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
