@@ -62,6 +62,7 @@ LeetCode-Solutions/
 |-- 128.Longest Consecutive Sequence.java
 |-- 167.Two Sum II - Input Array is Sorted.java
 |-- 169.Majority Element.java
+|-- 189. Rotate Array.java
 |-- 218. Contains Duplicate.java
 |-- 219. Contains Duplicate II.java
 |-- 223. Rectangle Area.java
@@ -135,6 +136,7 @@ class Solution {
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟡 Medium |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy |
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium |
 | 218 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | 🟢 Easy |
 | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | 🟡 Medium |
@@ -156,7 +158,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[####----------------]  30 / 150 solved
+[####----------------]  31 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
