@@ -64,6 +64,7 @@ LeetCode-Solutions/
 |-- 169.Majority Element.java
 |-- 218. Contains Duplicate.java
 |-- 219. Contains Duplicate II.java
+|-- 223. Rectangle Area.java
 |-- 229.Majority Element II.java
 |-- 238.Product of Array Except Self.java
 |-- 242. Valid Anagram.java
@@ -136,6 +137,7 @@ class Solution {
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy |
 | 218 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | 🟢 Easy |
+| 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | 🟡 Medium |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | 🟡 Medium |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy |
@@ -154,7 +156,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[###-----------------]  29 / 150 solved
+[####----------------]  30 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
