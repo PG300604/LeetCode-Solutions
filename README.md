@@ -72,6 +72,7 @@ LeetCode-Solutions/
 |-- 347.Top K Frequent Elements.java
 |-- 643. Maximum Average Subarray.java
 |-- 877.Stone Game.java
+|-- 1748. Sum of Unique Elements.java
 |-- 2235. Add Two Integers.java
 +-- 3731.Find Missing Elements.java
 +-- README.md
@@ -146,6 +147,7 @@ class Solution {
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Medium |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | 🟢 Easy |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
+| 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | 🟢 Easy |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | 🟢 Easy |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy |
 <!-- PROBLEMS_TABLE_END -->
@@ -158,7 +160,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[####----------------]  31 / 150 solved
+[####----------------]  32 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
