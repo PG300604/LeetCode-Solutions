@@ -74,6 +74,7 @@ LeetCode-Solutions/
 |-- 877.Stone Game.java
 |-- 1748. Sum of Unique Elements.java
 |-- 2235. Add Two Integers.java
+|-- 2769. Find the Maximum Achievable Number.java
 +-- 3731.Find Missing Elements.java
 +-- README.md
 ```
@@ -149,6 +150,7 @@ class Solution {
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | 🟢 Easy |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | 🟢 Easy |
+| 2769 | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 Easy |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy |
 <!-- PROBLEMS_TABLE_END -->
 
@@ -160,7 +162,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[####----------------]  32 / 150 solved
+[####----------------]  33 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
