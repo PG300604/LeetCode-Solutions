@@ -57,6 +57,7 @@ LeetCode-Solutions/
 |-- 49. Group Anagrams.java
 |-- 66. Plus One.java
 |-- 74. Search in 2D Matrix.java
+|-- 80.Remove Duplicates from Sorted Array II.java
 |-- 121.Best Time To Buy and Sell Stock.java
 |-- 125.Valid Pallindrome.java
 |-- 128.Longest Consecutive Sequence.java
@@ -133,6 +134,7 @@ class Solution {
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy |
 | 74 | [Search in 2D Matrix](https://leetcode.com/problems/search-in-2d-matrix/) | — |
+| 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 Medium |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 🟢 Easy |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium |
@@ -162,7 +164,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[####----------------]  33 / 150 solved
+[####----------------]  34 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
