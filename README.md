@@ -59,6 +59,7 @@ LeetCode-Solutions/
 |-- 74. Search in 2D Matrix.java
 |-- 80.Remove Duplicates from Sorted Array II.java
 |-- 121.Best Time To Buy and Sell Stock.java
+|-- 122. Best Time to Buy and Sell Stock II.java
 |-- 125.Valid Pallindrome.java
 |-- 128.Longest Consecutive Sequence.java
 |-- 167.Two Sum II - Input Array is Sorted.java
@@ -136,6 +137,7 @@ class Solution {
 | 74 | [Search in 2D Matrix](https://leetcode.com/problems/search-in-2d-matrix/) | — |
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 Medium |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy |
+| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | 🟡 Medium |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 🟢 Easy |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟡 Medium |
@@ -164,7 +166,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[####----------------]  34 / 150 solved
+[####----------------]  35 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
