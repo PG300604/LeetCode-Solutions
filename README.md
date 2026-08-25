@@ -71,6 +71,7 @@ LeetCode-Solutions/
 |-- 229.Majority Element II.java
 |-- 238.Product of Array Except Self.java
 |-- 242. Valid Anagram.java
+|-- 283.Move Zeroes.java
 |-- 347.Top K Frequent Elements.java
 |-- 349. Intersection of Two Arrays.java
 |-- 350. Intersection of Two Arrays II.java
@@ -151,6 +152,7 @@ class Solution {
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | 🟡 Medium |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Medium |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy |
@@ -170,7 +172,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[####----------------]  37 / 150 solved
+[#####---------------]  38 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
