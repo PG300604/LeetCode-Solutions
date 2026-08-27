@@ -58,6 +58,7 @@ LeetCode-Solutions/
 |-- 66. Plus One.java
 |-- 74. Search in 2D Matrix.java
 |-- 80.Remove Duplicates from Sorted Array II.java
+|-- 88. Merge Sorted Array.java
 |-- 121.Best Time To Buy and Sell Stock.java
 |-- 122. Best Time to Buy and Sell Stock II.java
 |-- 125.Valid Pallindrome.java
@@ -139,6 +140,7 @@ class Solution {
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy |
 | 74 | [Search in 2D Matrix](https://leetcode.com/problems/search-in-2d-matrix/) | — |
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 Medium |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | 🟡 Medium |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 🟢 Easy |
@@ -172,7 +174,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#####---------------]  38 / 150 solved
+[#####---------------]  39 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
