@@ -76,6 +76,7 @@ LeetCode-Solutions/
 |-- 347.Top K Frequent Elements.java
 |-- 349. Intersection of Two Arrays.java
 |-- 350. Intersection of Two Arrays II.java
+|-- 448. Find All Numbers Disappeared in an Array.java
 |-- 643. Maximum Average Subarray.java
 |-- 877.Stone Game.java
 |-- 1748. Sum of Unique Elements.java
@@ -158,6 +159,7 @@ class Solution {
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Medium |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy |
+| 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🟢 Easy |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | 🟢 Easy |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | 🟢 Easy |
@@ -174,7 +176,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#####---------------]  39 / 150 solved
+[#####---------------]  40 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
