@@ -82,6 +82,7 @@ LeetCode-Solutions/
 |-- 643. Maximum Average Subarray.java
 |-- 877.Stone Game.java
 |-- 1748. Sum of Unique Elements.java
+|-- 1768. Merge Strings Alternately.java
 |-- 2235. Add Two Integers.java
 |-- 2769. Find the Maximum Achievable Number.java
 +-- 3731.Find Missing Elements.java
@@ -167,6 +168,7 @@ class Solution {
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | 🟢 Easy |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | 🟢 Easy |
+| 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | 🟢 Easy |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | 🟢 Easy |
 | 2769 | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 Easy |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy |
@@ -180,7 +182,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#####---------------]  42 / 150 solved
+[#####---------------]  43 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
