@@ -81,6 +81,7 @@ LeetCode-Solutions/
 |-- 485. Max Consecutive Ones.java
 |-- 643. Maximum Average Subarray.java
 |-- 877.Stone Game.java
+|-- 1071. Greatest Common Divisor of Strings.java
 |-- 1748. Sum of Unique Elements.java
 |-- 1768. Merge Strings Alternately.java
 |-- 2235. Add Two Integers.java
@@ -167,6 +168,7 @@ class Solution {
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | 🟢 Easy |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
+| 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | 🟢 Easy |
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | 🟢 Easy |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | 🟢 Easy |
@@ -182,7 +184,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#####---------------]  43 / 150 solved
+[#####---------------]  44 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
