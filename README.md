@@ -77,6 +77,7 @@ LeetCode-Solutions/
 |-- 347.Top K Frequent Elements.java
 |-- 349. Intersection of Two Arrays.java
 |-- 350. Intersection of Two Arrays II.java
+|-- 371.Sum of Two Integers.java
 |-- 448. Find All Numbers Disappeared in an Array.java
 |-- 485. Max Consecutive Ones.java
 |-- 643. Maximum Average Subarray.java
@@ -164,6 +165,7 @@ class Solution {
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Medium |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy |
+| 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | 🟡 Medium |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🟢 Easy |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | 🟢 Easy |
@@ -184,7 +186,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#####---------------]  44 / 150 solved
+[######--------------]  45 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
@@ -203,7 +205,7 @@ class Solution {
 | Dynamic Programming | 🟢 In Progress |
 | Greedy | ⬜ Not Started |
 | Intervals | ⬜ Not Started |
-| Bit Manipulation | ⬜ Not Started |
+| Bit Manipulation | 🟢 In Progress |
 | Math & Geometry | 🟢 In Progress |
 | Arrays & Hashing | 🟢 In Progress |
 <!-- PATTERN_TABLE_END -->
