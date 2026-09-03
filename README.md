@@ -80,6 +80,7 @@ LeetCode-Solutions/
 |-- 371.Sum of Two Integers.java
 |-- 448. Find All Numbers Disappeared in an Array.java
 |-- 485. Max Consecutive Ones.java
+|-- 605. Can Place Flowers.java
 |-- 643. Maximum Average Subarray.java
 |-- 877.Stone Game.java
 |-- 1071. Greatest Common Divisor of Strings.java
@@ -169,6 +170,7 @@ class Solution {
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | 🟡 Medium |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🟢 Easy |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy |
+| 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | 🟢 Easy |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | 🟢 Easy |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy |
@@ -188,7 +190,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[######--------------]  46 / 150 solved
+[######--------------]  47 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
@@ -205,7 +207,7 @@ class Solution {
 | Backtracking | ⬜ Not Started |
 | Graphs | 🟢 In Progress |
 | Dynamic Programming | 🟢 In Progress |
-| Greedy | ⬜ Not Started |
+| Greedy | 🟢 In Progress |
 | Intervals | ⬜ Not Started |
 | Bit Manipulation | 🟢 In Progress |
 | Math & Geometry | 🟢 In Progress |
