@@ -91,7 +91,9 @@ LeetCode-Solutions/
 |-- 1768. Merge Strings Alternately.java
 |-- 2235. Add Two Integers.java
 |-- 2769. Find the Maximum Achievable Number.java
-+-- 3731.Find Missing Elements.java
+|-- 3731.Find Missing Elements.java
+|-- 4043. Count Rotations With Exactly K Equal Adjacent Pairs.java
++-- 4044. Count Good Cyclic Rotations.java
 +-- README.md
 ```
 <!-- STRUCTURE_END -->
@@ -184,6 +186,8 @@ class Solution {
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | 🟢 Easy |
 | 2769 | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 Easy |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy |
+| 4043 | [Count Rotations With Exactly K Equal Adjacent Pairs](https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/) | 🟢 Easy |
+| 4044 | [Count Good Cyclic Rotations](https://leetcode.com/problems/count-good-cyclic-rotations/) | 🟡 Medium |
 <!-- PROBLEMS_TABLE_END -->
 
 > This table updates **automatically** via GitHub Actions every time a new `.java` solution is pushed to `main`, using LeetCode's own search API to fetch the correct title, link, and difficulty — even if the filename has typos or shorthand.
@@ -194,7 +198,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[######--------------]  49 / 150 solved
+[######--------------]  51 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
