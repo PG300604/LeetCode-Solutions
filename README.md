@@ -75,6 +75,7 @@ LeetCode-Solutions/
 |-- 242. Valid Anagram.java
 |-- 268. Missing Number.java
 |-- 283.Move Zeroes.java
+|-- 334. Increasing Triplet Subsequence.java
 |-- 345. Reverse Vowels of a String.java
 |-- 347.Top K Frequent Elements.java
 |-- 349. Intersection of Two Arrays.java
@@ -169,6 +170,7 @@ class Solution {
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Easy |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy |
+| 334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | 🟡 Medium |
 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | 🟢 Easy |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Medium |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy |
@@ -198,7 +200,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[######--------------]  51 / 150 solved
+[######--------------]  52 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
