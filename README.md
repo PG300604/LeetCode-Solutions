@@ -81,6 +81,7 @@ LeetCode-Solutions/
 |-- 349. Intersection of Two Arrays.java
 |-- 350. Intersection of Two Arrays II.java
 |-- 371.Sum of Two Integers.java
+|-- 443. String Compression.java
 |-- 448. Find All Numbers Disappeared in an Array.java
 |-- 485. Max Consecutive Ones.java
 |-- 605. Can Place Flowers.java
@@ -176,6 +177,7 @@ class Solution {
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy |
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | 🟡 Medium |
+| 443 | [String Compression](https://leetcode.com/problems/string-compression/) | 🟡 Medium |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🟢 Easy |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy |
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | 🟢 Easy |
@@ -200,7 +202,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[######--------------]  52 / 150 solved
+[#######-------------]  53 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
