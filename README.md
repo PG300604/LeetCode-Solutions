@@ -24,7 +24,7 @@
 
 <div align="center">
 
-![LeetCode Stats](https://leetcode-stats-two-lyart.vercel.app/api?username=priyanshughosh30&theme=dark&background=0d1117&border=1A56DB&stroke=1A56DB&ring=79b8ff&fire=ff6b35&currStreakLabel=79b8ff&sideLabels=8fa3c0&dates=8fa3c0&currStreakNum=ffffff&sideNums=ffffff)
+<img src="https://leetcard.jacoblin.cool/priyanshughosh30?theme=dark&font=Karma&ext=activity" alt="LeetCode Activity"/>
 
 </div>
 
