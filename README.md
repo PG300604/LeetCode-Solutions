@@ -90,6 +90,7 @@ LeetCode-Solutions/
 |-- 877.Stone Game.java
 |-- 1071. Greatest Common Divisor of Strings.java
 |-- 1431. Kids With the Greatest Number of Candies.java
+|-- 1456. Maximum Number of Vowels in a Substring of Given Length.java
 |-- 1679. Max Number of K-Sum Pairs.java
 |-- 1748. Sum of Unique Elements.java
 |-- 1768. Merge Strings Alternately.java
@@ -150,7 +151,7 @@ class Solution {
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy |
 | 32 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Hard |
-| 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | — |
+| 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy |
@@ -174,7 +175,7 @@ class Solution {
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Easy |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy |
 | 334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | 🟡 Medium |
-| 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | — |
+| 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | 🟢 Easy |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Medium |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy |
@@ -188,6 +189,7 @@ class Solution {
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 Easy |
+| 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 🟡 Medium |
 | 1679 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | 🟡 Medium |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | 🟢 Easy |
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | 🟢 Easy |
@@ -206,7 +208,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#######-------------]  55 / 150 solved
+[#######-------------]  56 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
