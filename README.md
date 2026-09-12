@@ -96,6 +96,7 @@ LeetCode-Solutions/
 |-- 1679. Max Number of K-Sum Pairs.java
 |-- 1748. Sum of Unique Elements.java
 |-- 1768. Merge Strings Alternately.java
+|-- 1929. Concatenation of Array.java
 |-- 2235. Add Two Integers.java
 |-- 2769. Find the Maximum Achievable Number.java
 |-- 3731.Find Missing Elements.java
@@ -200,6 +201,7 @@ class Solution {
 | 1679 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | 🟡 Medium |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | 🟢 Easy |
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | 🟢 Easy |
+| 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | 🟢 Easy |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | 🟢 Easy |
 | 2769 | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 Easy |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy |
@@ -218,7 +220,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[########------------]  61 / 150 solved
+[########------------]  62 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
