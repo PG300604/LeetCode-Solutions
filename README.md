@@ -92,6 +92,7 @@ LeetCode-Solutions/
 |-- 1071. Greatest Common Divisor of Strings.java
 |-- 1431. Kids With the Greatest Number of Candies.java
 |-- 1456. Maximum Number of Vowels in a Substring of Given Length.java
+|-- 1493. Longest Subarray of 1's After Deleting One Element.java
 |-- 1679. Max Number of K-Sum Pairs.java
 |-- 1748. Sum of Unique Elements.java
 |-- 1768. Merge Strings Alternately.java
@@ -195,6 +196,7 @@ class Solution {
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 Easy |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 🟡 Medium |
+| 1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | 🟡 Medium |
 | 1679 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | 🟡 Medium |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | 🟢 Easy |
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | 🟢 Easy |
@@ -216,7 +218,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[########------------]  60 / 150 solved
+[########------------]  61 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
