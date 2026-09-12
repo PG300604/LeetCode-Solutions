@@ -88,6 +88,7 @@ LeetCode-Solutions/
 |-- 605. Can Place Flowers.java
 |-- 643. Maximum Average Subarray.java
 |-- 877.Stone Game.java
+|-- 1004. Max Consecutive Ones III.java
 |-- 1071. Greatest Common Divisor of Strings.java
 |-- 1431. Kids With the Greatest Number of Candies.java
 |-- 1456. Maximum Number of Vowels in a Substring of Given Length.java
@@ -187,6 +188,7 @@ class Solution {
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | 🟢 Easy |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | 🟢 Easy |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
+| 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | 🟡 Medium |
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 Easy |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 🟡 Medium |
@@ -208,7 +210,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#######-------------]  56 / 150 solved
+[#######-------------]  57 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
