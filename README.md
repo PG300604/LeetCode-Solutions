@@ -99,7 +99,10 @@ LeetCode-Solutions/
 |-- 2769. Find the Maximum Achievable Number.java
 |-- 3731.Find Missing Elements.java
 |-- 4043. Count Rotations With Exactly K Equal Adjacent Pairs.java
-+-- 4044. Count Good Cyclic Rotations.java
+|-- 4044. Count Good Cyclic Rotations.java
+|-- 4048. Count Values With Equally Spaced Occurrences I.java
+|-- 4049. Count Values With Equally Spaced Occurrences II.java
++-- 4050. Minimum Days to Score Exactly N Points.java
 +-- README.md
 ```
 <!-- STRUCTURE_END -->
@@ -200,6 +203,9 @@ class Solution {
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy |
 | 4043 | [Count Rotations With Exactly K Equal Adjacent Pairs](https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/) | 🟢 Easy |
 | 4044 | [Count Good Cyclic Rotations](https://leetcode.com/problems/count-good-cyclic-rotations/) | 🟡 Medium |
+| 4048 | [Count Values With Equally Spaced Occurrences I](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | 🟢 Easy |
+| 4049 | [Count Values With Equally Spaced Occurrences II](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | 🟡 Medium |
+| 4050 | [Minimum Days to Score Exactly N Points](https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/) | 🟡 Medium |
 <!-- PROBLEMS_TABLE_END -->
 
 > This table updates **automatically** via GitHub Actions every time a new `.java` solution is pushed to `main`, using LeetCode's own search API to fetch the correct title, link, and difficulty — even if the filename has typos or shorthand.
@@ -210,7 +216,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#######-------------]  57 / 150 solved
+[########------------]  60 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
