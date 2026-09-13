@@ -104,7 +104,8 @@ LeetCode-Solutions/
 |-- 4044. Count Good Cyclic Rotations.java
 |-- 4048. Count Values With Equally Spaced Occurrences I.java
 |-- 4049. Count Values With Equally Spaced Occurrences II.java
-+-- 4050. Minimum Days to Score Exactly N Points.java
+|-- 4050. Minimum Days to Score Exactly N Points.java
++-- 4052. Cyclically Shift Rows and Columns.java
 +-- README.md
 ```
 <!-- STRUCTURE_END -->
@@ -210,6 +211,7 @@ class Solution {
 | 4048 | [Count Values With Equally Spaced Occurrences I](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | 🟢 Easy |
 | 4049 | [Count Values With Equally Spaced Occurrences II](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | 🟡 Medium |
 | 4050 | [Minimum Days to Score Exactly N Points](https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/) | 🟡 Medium |
+| 4052 | [Cyclically Shift Rows and Columns](https://leetcode.com/problems/cyclically-shift-rows-and-columns/) | 🟢 Easy |
 <!-- PROBLEMS_TABLE_END -->
 
 > This table updates **automatically** via GitHub Actions every time a new `.java` solution is pushed to `main`, using LeetCode's own search API to fetch the correct title, link, and difficulty — even if the filename has typos or shorthand.
@@ -220,7 +222,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[########------------]  62 / 150 solved
+[########------------]  63 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
