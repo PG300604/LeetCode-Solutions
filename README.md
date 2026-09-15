@@ -87,6 +87,7 @@ LeetCode-Solutions/
 |-- 485. Max Consecutive Ones.java
 |-- 605. Can Place Flowers.java
 |-- 643. Maximum Average Subarray.java
+|-- 724. Find Pivot Index.java
 |-- 877.Stone Game.java
 |-- 1004. Max Consecutive Ones III.java
 |-- 1071. Greatest Common Divisor of Strings.java
@@ -193,6 +194,7 @@ class Solution {
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy |
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | 🟢 Easy |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | 🟢 Easy |
+| 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | 🟢 Easy |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | 🟡 Medium |
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy |
@@ -222,7 +224,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[########------------]  63 / 150 solved
+[########------------]  64 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
