@@ -91,6 +91,7 @@ LeetCode-Solutions/
 |-- 877.Stone Game.java
 |-- 1004. Max Consecutive Ones III.java
 |-- 1071. Greatest Common Divisor of Strings.java
+|-- 1207. Unique Number of Occurrences.java
 |-- 1431. Kids With the Greatest Number of Candies.java
 |-- 1456. Maximum Number of Vowels in a Substring of Given Length.java
 |-- 1493. Longest Subarray of 1's After Deleting One Element.java
@@ -199,6 +200,7 @@ class Solution {
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | 🟡 Medium |
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy |
+| 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | 🟢 Easy |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 Easy |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 🟡 Medium |
 | 1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | 🟡 Medium |
@@ -226,7 +228,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[########------------]  65 / 150 solved
+[########------------]  66 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
