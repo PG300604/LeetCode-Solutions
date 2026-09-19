@@ -102,6 +102,7 @@ LeetCode-Solutions/
 |-- 1929. Concatenation of Array.java
 |-- 2215. Find the Difference of Two Arrays.java
 |-- 2235. Add Two Integers.java
+|-- 2352. Equal Row and Column Pairs.java
 |-- 2769. Find the Maximum Achievable Number.java
 |-- 3731.Find Missing Elements.java
 |-- 4043. Count Rotations With Exactly K Equal Adjacent Pairs.java
@@ -212,6 +213,7 @@ class Solution {
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | 🟢 Easy |
 | 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | 🟢 Easy |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | 🟢 Easy |
+| 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 Medium |
 | 2769 | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 Easy |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy |
 | 4043 | [Count Rotations With Exactly K Equal Adjacent Pairs](https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/) | 🟢 Easy |
@@ -230,7 +232,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[########------------]  67 / 150 solved
+[#########-----------]  68 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
