@@ -55,6 +55,7 @@ LeetCode-Solutions/
 |-- 34. Find First and Last Position of Element in Sorted Array.java
 |-- 35.Search Index Position.java
 |-- 49. Group Anagrams.java
+|-- 58. Length of Last Word.java
 |-- 66. Plus One.java
 |-- 74. Search in 2D Matrix.java
 |-- 80.Remove Duplicates from Sorted Array II.java
@@ -167,6 +168,7 @@ class Solution {
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | 🟢 Easy |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy |
 | 74 | [Search in 2D Matrix](https://leetcode.com/problems/search-in-2d-matrix/) | — |
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 Medium |
@@ -234,7 +236,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#########-----------]  69 / 150 solved
+[#########-----------]  70 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
