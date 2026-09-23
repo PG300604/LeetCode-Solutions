@@ -51,6 +51,7 @@ LeetCode-Solutions/
 |-- 15. 3Sum.java
 |-- 26.Remove Duplicates.java
 |-- 27. Remove Elements.java
+|-- 28. Find the Index of the First Occurrence in a String.java
 |-- 32.Trapping Rain Water.java
 |-- 34. Find First and Last Position of Element in Sorted Array.java
 |-- 35.Search Index Position.java
@@ -164,6 +165,7 @@ class Solution {
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 Medium |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy |
+| 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 🟢 Easy |
 | 32 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Hard |
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy |
@@ -236,7 +238,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#########-----------]  70 / 150 solved
+[#########-----------]  71 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
