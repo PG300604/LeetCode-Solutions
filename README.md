@@ -106,6 +106,7 @@ LeetCode-Solutions/
 |-- 2215. Find the Difference of Two Arrays.java
 |-- 2235. Add Two Integers.java
 |-- 2352. Equal Row and Column Pairs.java
+|-- 2390. Removing Stars From a String.java
 |-- 2769. Find the Maximum Achievable Number.java
 |-- 3731.Find Missing Elements.java
 |-- 4043. Count Rotations With Exactly K Equal Adjacent Pairs.java
@@ -220,6 +221,7 @@ class Solution {
 | 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | 🟢 Easy |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | 🟢 Easy |
 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 Medium |
+| 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | 🟡 Medium |
 | 2769 | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 Easy |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy |
 | 4043 | [Count Rotations With Exactly K Equal Adjacent Pairs](https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/) | 🟢 Easy |
@@ -238,7 +240,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#########-----------]  71 / 150 solved
+[#########-----------]  72 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
@@ -247,7 +249,7 @@ class Solution {
 |:---|:---:|
 | Two Pointers | 🟢 In Progress |
 | Sliding Window | 🟢 In Progress |
-| Stack | ⬜ Not Started |
+| Stack | 🟢 In Progress |
 | Binary Search | 🟢 In Progress |
 | Linked List | ⬜ Not Started |
 | Trees | ⬜ Not Started |
