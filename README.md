@@ -49,6 +49,7 @@ LeetCode-Solutions/
 |-- 11. Container With Most Water.java
 |-- 14. Longest Common Prefix.java
 |-- 15. 3Sum.java
+|-- 20. Valid Parentheses.java
 |-- 26.Remove Duplicates.java
 |-- 27. Remove Elements.java
 |-- 28. Find the Index of the First Occurrence in a String.java
@@ -164,6 +165,7 @@ class Solution {
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 Medium |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy |
 | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 🟢 Easy |
@@ -240,7 +242,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#########-----------]  72 / 150 solved
+[#########-----------]  73 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
