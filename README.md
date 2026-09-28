@@ -115,7 +115,10 @@ LeetCode-Solutions/
 |-- 4048. Count Values With Equally Spaced Occurrences I.java
 |-- 4049. Count Values With Equally Spaced Occurrences II.java
 |-- 4050. Minimum Days to Score Exactly N Points.java
-+-- 4052. Cyclically Shift Rows and Columns.java
+|-- 4052. Cyclically Shift Rows and Columns.java
+|-- 4061. Minimum Queen Moves to Reach Target.java
+|-- 4062. Transform Array Using Pair Operations.java
++-- 4063. Longest Subarray Divisible by K with At Most One Negation I.java
 +-- README.md
 ```
 <!-- STRUCTURE_END -->
@@ -232,6 +235,9 @@ class Solution {
 | 4049 | [Count Values With Equally Spaced Occurrences II](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | 🟡 Medium |
 | 4050 | [Minimum Days to Score Exactly N Points](https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/) | 🟡 Medium |
 | 4052 | [Cyclically Shift Rows and Columns](https://leetcode.com/problems/cyclically-shift-rows-and-columns/) | 🟢 Easy |
+| 4061 | [Minimum Queen Moves to Reach Target](https://leetcode.com/problems/minimum-queen-moves-to-reach-target/) | 🟢 Easy |
+| 4062 | [Transform Array Using Pair Operations](https://leetcode.com/problems/transform-array-using-pair-operations/) | 🟡 Medium |
+| 4063 | [Longest Subarray Divisible by K with At Most One Negation I](https://leetcode.com/problems/longest-subarray-divisible-by-k-with-at-most-one-negation-i/) | 🟡 Medium |
 <!-- PROBLEMS_TABLE_END -->
 
 > This table updates **automatically** via GitHub Actions every time a new `.java` solution is pushed to `main`, using LeetCode's own search API to fetch the correct title, link, and difficulty — even if the filename has typos or shorthand.
@@ -242,7 +248,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#########-----------]  73 / 150 solved
+[##########----------]  76 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
