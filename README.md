@@ -50,6 +50,7 @@ LeetCode-Solutions/
 |-- 14. Longest Common Prefix.java
 |-- 15. 3Sum.java
 |-- 20. Valid Parentheses.java
+|-- 20. Valid Parentheses(with stack).java
 |-- 26.Remove Duplicates.java
 |-- 27. Remove Elements.java
 |-- 28. Find the Index of the First Occurrence in a String.java
@@ -73,6 +74,7 @@ LeetCode-Solutions/
 |-- 218. Contains Duplicate.java
 |-- 219. Contains Duplicate II.java
 |-- 223. Rectangle Area.java
+|-- 227. Basic Calculator II.java
 |-- 229.Majority Element II.java
 |-- 238.Product of Array Except Self.java
 |-- 242. Valid Anagram.java
@@ -85,6 +87,7 @@ LeetCode-Solutions/
 |-- 350. Intersection of Two Arrays II.java
 |-- 371.Sum of Two Integers.java
 |-- 392. Is Subsequence.java
+|-- 402. Remove K Digits.java
 |-- 443. String Compression.java
 |-- 448. Find All Numbers Disappeared in an Array.java
 |-- 485. Max Consecutive Ones.java
@@ -168,6 +171,7 @@ class Solution {
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 Medium |
+| 20 | [Valid Parentheses(with stack)](https://leetcode.com/problems/valid-parentheseswith-stack/) | — |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy |
@@ -192,6 +196,7 @@ class Solution {
 | 218 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | 🟢 Easy |
 | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | 🟡 Medium |
+| 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | 🟡 Medium |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | 🟡 Medium |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy |
@@ -204,6 +209,7 @@ class Solution {
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy |
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | 🟡 Medium |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy |
+| 402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | 🟡 Medium |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | 🟡 Medium |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🟢 Easy |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy |
@@ -248,7 +254,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[##########----------]  76 / 150 solved
+[##########----------]  79 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
