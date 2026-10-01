@@ -80,6 +80,7 @@ LeetCode-Solutions/
 |-- 242. Valid Anagram.java
 |-- 268. Missing Number.java
 |-- 283.Move Zeroes.java
+|-- 316. Remove Duplicate Letters.java
 |-- 334. Increasing Triplet Subsequence.java
 |-- 345. Reverse Vowels of a String.java
 |-- 347.Top K Frequent Elements.java
@@ -98,6 +99,7 @@ LeetCode-Solutions/
 |-- 877.Stone Game.java
 |-- 1004. Max Consecutive Ones III.java
 |-- 1071. Greatest Common Divisor of Strings.java
+|-- 1081. Smallest Subsequence of Distinct Characters.java
 |-- 1207. Unique Number of Occurrences.java
 |-- 1431. Kids With the Greatest Number of Candies.java
 |-- 1456. Maximum Number of Vowels in a Substring of Given Length.java
@@ -202,6 +204,7 @@ class Solution {
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Easy |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy |
+| 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium |
 | 334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | 🟡 Medium |
 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | 🟢 Easy |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Medium |
@@ -220,6 +223,7 @@ class Solution {
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | 🟡 Medium |
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy |
+| 1081 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | 🟡 Medium |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | 🟢 Easy |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 Easy |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 🟡 Medium |
@@ -254,7 +258,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[##########----------]  79 / 150 solved
+[##########----------]  81 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
