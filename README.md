@@ -95,6 +95,7 @@ LeetCode-Solutions/
 |-- 605. Can Place Flowers.java
 |-- 643. Maximum Average Subarray.java
 |-- 724. Find Pivot Index.java
+|-- 739. Daily Temperatures.java
 |-- 771. Jewels and Stones.java
 |-- 877.Stone Game.java
 |-- 1004. Max Consecutive Ones III.java
@@ -219,6 +220,7 @@ class Solution {
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | 🟢 Easy |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | 🟢 Easy |
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | 🟢 Easy |
+| 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | 🟡 Medium |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | 🟡 Medium |
@@ -258,7 +260,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[##########----------]  81 / 150 solved
+[##########----------]  82 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
