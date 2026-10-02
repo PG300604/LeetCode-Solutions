@@ -51,6 +51,7 @@ LeetCode-Solutions/
 |-- 15. 3Sum.java
 |-- 20. Valid Parentheses.java
 |-- 20. Valid Parentheses(with stack).java
+|-- 22. Generate Parentheses.java
 |-- 26.Remove Duplicates.java
 |-- 27. Remove Elements.java
 |-- 28. Find the Index of the First Occurrence in a String.java
@@ -176,6 +177,7 @@ class Solution {
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 Medium |
 | 20 | [Valid Parentheses(with stack)](https://leetcode.com/problems/valid-parentheseswith-stack/) | — |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy |
+| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 🟡 Medium |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy |
 | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 🟢 Easy |
@@ -260,7 +262,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[##########----------]  82 / 150 solved
+[###########---------]  83 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
@@ -274,7 +276,7 @@ class Solution {
 | Linked List | ⬜ Not Started |
 | Trees | ⬜ Not Started |
 | Heap / Priority Queue | 🟢 In Progress |
-| Backtracking | ⬜ Not Started |
+| Backtracking | 🟢 In Progress |
 | Graphs | 🟢 In Progress |
 | Dynamic Programming | 🟢 In Progress |
 | Greedy | 🟢 In Progress |
