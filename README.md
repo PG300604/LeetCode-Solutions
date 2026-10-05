@@ -100,6 +100,7 @@ LeetCode-Solutions/
 |-- 724. Find Pivot Index.java
 |-- 739. Daily Temperatures.java
 |-- 771. Jewels and Stones.java
+|-- 856. Score of Parentheses.java
 |-- 877.Stone Game.java
 |-- 1004. Max Consecutive Ones III.java
 |-- 1071. Greatest Common Divisor of Strings.java
@@ -229,6 +230,7 @@ class Solution {
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | 🟢 Easy |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | 🟡 Medium |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy |
+| 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | 🟡 Medium |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | 🟡 Medium |
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy |
@@ -268,7 +270,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[###########---------]  86 / 150 solved
+[###########---------]  87 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
