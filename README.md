@@ -96,6 +96,7 @@ LeetCode-Solutions/
 |-- 485. Max Consecutive Ones.java
 |-- 605. Can Place Flowers.java
 |-- 643. Maximum Average Subarray.java
+|-- 678. Valid Parenthesis String.java
 |-- 724. Find Pivot Index.java
 |-- 739. Daily Temperatures.java
 |-- 771. Jewels and Stones.java
@@ -126,7 +127,8 @@ LeetCode-Solutions/
 |-- 4052. Cyclically Shift Rows and Columns.java
 |-- 4061. Minimum Queen Moves to Reach Target.java
 |-- 4062. Transform Array Using Pair Operations.java
-+-- 4063. Longest Subarray Divisible by K with At Most One Negation I.java
+|-- 4063. Longest Subarray Divisible by K with At Most One Negation I.java
++-- 4071. Minimum Rotations to Dial a Number II.java
 +-- README.md
 ```
 <!-- STRUCTURE_END -->
@@ -223,6 +225,7 @@ class Solution {
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy |
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | 🟢 Easy |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | 🟢 Easy |
+| 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium |
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | 🟢 Easy |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | 🟡 Medium |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy |
@@ -254,6 +257,7 @@ class Solution {
 | 4061 | [Minimum Queen Moves to Reach Target](https://leetcode.com/problems/minimum-queen-moves-to-reach-target/) | 🟢 Easy |
 | 4062 | [Transform Array Using Pair Operations](https://leetcode.com/problems/transform-array-using-pair-operations/) | 🟡 Medium |
 | 4063 | [Longest Subarray Divisible by K with At Most One Negation I](https://leetcode.com/problems/longest-subarray-divisible-by-k-with-at-most-one-negation-i/) | 🟡 Medium |
+| 4071 | [Minimum Rotations to Dial a Number II](https://leetcode.com/problems/minimum-rotations-to-dial-a-number-ii/) | 🟡 Medium |
 <!-- PROBLEMS_TABLE_END -->
 
 > This table updates **automatically** via GitHub Actions every time a new `.java` solution is pushed to `main`, using LeetCode's own search API to fetch the correct title, link, and difficulty — even if the filename has typos or shorthand.
@@ -264,7 +268,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[###########---------]  84 / 150 solved
+[###########---------]  86 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
