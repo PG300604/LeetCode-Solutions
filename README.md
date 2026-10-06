@@ -102,6 +102,7 @@ LeetCode-Solutions/
 |-- 771. Jewels and Stones.java
 |-- 856. Score of Parentheses.java
 |-- 877.Stone Game.java
+|-- 921. Minimum Add to Make Parentheses Valid.java
 |-- 1004. Max Consecutive Ones III.java
 |-- 1071. Greatest Common Divisor of Strings.java
 |-- 1081. Smallest Subsequence of Distinct Characters.java
@@ -232,6 +233,7 @@ class Solution {
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy |
 | 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | 🟡 Medium |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
+| 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | 🟡 Medium |
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy |
 | 1081 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | 🟡 Medium |
@@ -270,7 +272,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[###########---------]  87 / 150 solved
+[###########---------]  88 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
