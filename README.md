@@ -82,6 +82,7 @@ LeetCode-Solutions/
 |-- 242. Valid Anagram.java
 |-- 268. Missing Number.java
 |-- 283.Move Zeroes.java
+|-- 301. Remove Invalid Parentheses.java
 |-- 316. Remove Duplicate Letters.java
 |-- 334. Increasing Triplet Subsequence.java
 |-- 345. Reverse Vowels of a String.java
@@ -104,6 +105,7 @@ LeetCode-Solutions/
 |-- 877.Stone Game.java
 |-- 921. Minimum Add to Make Parentheses Valid.java
 |-- 1004. Max Consecutive Ones III.java
+|-- 1021. Remove Outermost Parentheses.java
 |-- 1071. Greatest Common Divisor of Strings.java
 |-- 1081. Smallest Subsequence of Distinct Characters.java
 |-- 1207. Unique Number of Occurrences.java
@@ -213,6 +215,7 @@ class Solution {
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Easy |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy |
+| 301 | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | 🔴 Hard |
 | 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium |
 | 334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | 🟡 Medium |
 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | 🟢 Easy |
@@ -235,6 +238,7 @@ class Solution {
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
 | 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | 🟡 Medium |
+| 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy |
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy |
 | 1081 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | 🟡 Medium |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | 🟢 Easy |
@@ -272,7 +276,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[###########---------]  88 / 150 solved
+[############--------]  90 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
