@@ -120,6 +120,7 @@ LeetCode-Solutions/
 |-- 1929. Concatenation of Array.java
 |-- 2215. Find the Difference of Two Arrays.java
 |-- 2235. Add Two Integers.java
+|-- 2333. Minimum Sum of Squared Difference.java
 |-- 2352. Equal Row and Column Pairs.java
 |-- 2390. Removing Stars From a String.java
 |-- 2769. Find the Maximum Achievable Number.java
@@ -254,6 +255,7 @@ class Solution {
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | 🟢 Easy |
 | 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | 🟢 Easy |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | 🟢 Easy |
+| 2333 | [Minimum Sum of Squared Difference](https://leetcode.com/problems/minimum-sum-of-squared-difference/) | 🟡 Medium |
 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 Medium |
 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | 🟡 Medium |
 | 2769 | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 Easy |
@@ -278,7 +280,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[############--------]  91 / 150 solved
+[############--------]  92 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
