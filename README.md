@@ -124,6 +124,7 @@ LeetCode-Solutions/
 |-- 2352. Equal Row and Column Pairs.java
 |-- 2390. Removing Stars From a String.java
 |-- 2769. Find the Maximum Achievable Number.java
+|-- 2778. Sum of Squares of Special Elements .java
 |-- 3731.Find Missing Elements.java
 |-- 4043. Count Rotations With Exactly K Equal Adjacent Pairs.java
 |-- 4044. Count Good Cyclic Rotations.java
@@ -259,6 +260,7 @@ class Solution {
 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 Medium |
 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | 🟡 Medium |
 | 2769 | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 Easy |
+| 2778 | [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | 🟢 Easy |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy |
 | 4043 | [Count Rotations With Exactly K Equal Adjacent Pairs](https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/) | 🟢 Easy |
 | 4044 | [Count Good Cyclic Rotations](https://leetcode.com/problems/count-good-cyclic-rotations/) | 🟡 Medium |
@@ -280,7 +282,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[############--------]  92 / 150 solved
+[############--------]  93 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
