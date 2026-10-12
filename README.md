@@ -135,7 +135,12 @@ LeetCode-Solutions/
 |-- 4061. Minimum Queen Moves to Reach Target.java
 |-- 4062. Transform Array Using Pair Operations.java
 |-- 4063. Longest Subarray Divisible by K with At Most One Negation I.java
-+-- 4071. Minimum Rotations to Dial a Number II.java
+|-- 4070. Minimum Rotations to Dial a Number I.java
+|-- 4071. Minimum Rotations to Dial a Number II.java
+|-- 4074. Maximum Product Pair With Target Sum.java
+|-- 4075. Longest Resilient Subarray I.java
+|-- 4078. Three Fibonacci Sum.java
++-- 4079. Prime Subset Selection I.java
 +-- README.md
 ```
 <!-- STRUCTURE_END -->
@@ -271,7 +276,12 @@ class Solution {
 | 4061 | [Minimum Queen Moves to Reach Target](https://leetcode.com/problems/minimum-queen-moves-to-reach-target/) | 🟢 Easy |
 | 4062 | [Transform Array Using Pair Operations](https://leetcode.com/problems/transform-array-using-pair-operations/) | 🟡 Medium |
 | 4063 | [Longest Subarray Divisible by K with At Most One Negation I](https://leetcode.com/problems/longest-subarray-divisible-by-k-with-at-most-one-negation-i/) | 🟡 Medium |
+| 4070 | [Minimum Rotations to Dial a Number I](https://leetcode.com/problems/minimum-rotations-to-dial-a-number-i/) | 🟢 Easy |
 | 4071 | [Minimum Rotations to Dial a Number II](https://leetcode.com/problems/minimum-rotations-to-dial-a-number-ii/) | 🟡 Medium |
+| 4074 | [Maximum Product Pair With Target Sum](https://leetcode.com/problems/maximum-product-pair-with-target-sum/) | 🟢 Easy |
+| 4075 | [Longest Resilient Subarray I](https://leetcode.com/problems/longest-resilient-subarray-i/) | 🟡 Medium |
+| 4078 | [Three Fibonacci Sum](https://leetcode.com/problems/three-fibonacci-sum/) | 🟢 Easy |
+| 4079 | [Prime Subset Selection I](https://leetcode.com/problems/prime-subset-selection-i/) | 🟡 Medium |
 <!-- PROBLEMS_TABLE_END -->
 
 > This table updates **automatically** via GitHub Actions every time a new `.java` solution is pushed to `main`, using LeetCode's own search API to fetch the correct title, link, and difficulty — even if the filename has typos or shorthand.
@@ -282,7 +292,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[############--------]  93 / 150 solved
+[#############-------]  98 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
