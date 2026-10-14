@@ -125,6 +125,7 @@ LeetCode-Solutions/
 |-- 2390. Removing Stars From a String.java
 |-- 2769. Find the Maximum Achievable Number.java
 |-- 2778. Sum of Squares of Special Elements .java
+|-- 3723. Maximize Sum of Squares of Digits.java
 |-- 3727. Maximum Alternating Sum of Squares.java
 |-- 3731.Find Missing Elements.java
 |-- 4043. Count Rotations With Exactly K Equal Adjacent Pairs.java
@@ -267,6 +268,7 @@ class Solution {
 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | 🟡 Medium |
 | 2769 | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 Easy |
 | 2778 | [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | 🟢 Easy |
+| 3723 | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) | 🟡 Medium |
 | 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | 🟡 Medium |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy |
 | 4043 | [Count Rotations With Exactly K Equal Adjacent Pairs](https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/) | 🟢 Easy |
@@ -294,7 +296,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#############-------]  99 / 150 solved
+[#############-------]  100 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
