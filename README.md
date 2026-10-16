@@ -126,6 +126,7 @@ LeetCode-Solutions/
 |-- 2769. Find the Maximum Achievable Number.java
 |-- 2778. Sum of Squares of Special Elements .java
 |-- 2913. Subarrays Distinct Element Sum of Squares I.java
+|-- 2916. Subarrays Distinct Element Sum of Squares II.java
 |-- 3723. Maximize Sum of Squares of Digits.java
 |-- 3727. Maximum Alternating Sum of Squares.java
 |-- 3731.Find Missing Elements.java
@@ -270,6 +271,7 @@ class Solution {
 | 2769 | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 Easy |
 | 2778 | [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | 🟢 Easy |
 | 2913 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | 🟢 Easy |
+| 2916 | [Subarrays Distinct Element Sum of Squares II](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/) | 🔴 Hard |
 | 3723 | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) | 🟡 Medium |
 | 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | 🟡 Medium |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy |
@@ -298,7 +300,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#############-------]  101 / 150 solved
+[#############-------]  102 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
