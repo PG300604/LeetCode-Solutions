@@ -113,6 +113,7 @@ LeetCode-Solutions/
 |-- 1456. Maximum Number of Vowels in a Substring of Given Length.java
 |-- 1493. Longest Subarray of 1's After Deleting One Element.java
 |-- 1541. Minimum Insertions to Balance a Parentheses String.java
+|-- 1569. Number of Ways to Reorder Array to Get Same BST.java
 |-- 1657. Determine if Two Strings Are Close.java
 |-- 1679. Max Number of K-Sum Pairs.java
 |-- 1748. Sum of Unique Elements.java
@@ -258,6 +259,7 @@ class Solution {
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 🟡 Medium |
 | 1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | 🟡 Medium |
 | 1541 | [Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/) | 🟡 Medium |
+| 1569 | [Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) | 🔴 Hard |
 | 1657 | [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | 🟡 Medium |
 | 1679 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | 🟡 Medium |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | 🟢 Easy |
@@ -300,7 +302,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#############-------]  102 / 150 solved
+[#############-------]  103 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
@@ -312,7 +314,7 @@ class Solution {
 | Stack | 🟢 In Progress |
 | Binary Search | 🟢 In Progress |
 | Linked List | ⬜ Not Started |
-| Trees | ⬜ Not Started |
+| Trees | 🟢 In Progress |
 | Heap / Priority Queue | 🟢 In Progress |
 | Backtracking | 🟢 In Progress |
 | Graphs | 🟢 In Progress |
