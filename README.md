@@ -119,6 +119,7 @@ LeetCode-Solutions/
 |-- 1748. Sum of Unique Elements.java
 |-- 1768. Merge Strings Alternately.java
 |-- 1929. Concatenation of Array.java
+|-- 2089. Find Target Indices After Sorting Array.java
 |-- 2215. Find the Difference of Two Arrays.java
 |-- 2235. Add Two Integers.java
 |-- 2333. Minimum Sum of Squared Difference.java
@@ -265,6 +266,7 @@ class Solution {
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | 🟢 Easy |
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | 🟢 Easy |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | 🟢 Easy |
+| 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy |
 | 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | 🟢 Easy |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | 🟢 Easy |
 | 2333 | [Minimum Sum of Squared Difference](https://leetcode.com/problems/minimum-sum-of-squared-difference/) | 🟡 Medium |
@@ -302,7 +304,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#############-------]  103 / 150 solved
+[#############-------]  104 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
