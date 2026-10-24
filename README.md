@@ -125,6 +125,7 @@ LeetCode-Solutions/
 |-- 2333. Minimum Sum of Squared Difference.java
 |-- 2352. Equal Row and Column Pairs.java
 |-- 2390. Removing Stars From a String.java
+|-- 2409. Count Days Spent Together.java
 |-- 2769. Find the Maximum Achievable Number.java
 |-- 2778. Sum of Squares of Special Elements .java
 |-- 2913. Subarrays Distinct Element Sum of Squares I.java
@@ -276,6 +277,7 @@ class Solution {
 | 2333 | [Minimum Sum of Squared Difference](https://leetcode.com/problems/minimum-sum-of-squared-difference/) | 🟡 Medium |
 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 Medium |
 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | 🟡 Medium |
+| 2409 | [Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/) | 🟢 Easy |
 | 2769 | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 Easy |
 | 2778 | [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | 🟢 Easy |
 | 2913 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | 🟢 Easy |
@@ -312,7 +314,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[##############------]  108 / 150 solved
+[##############------]  109 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
