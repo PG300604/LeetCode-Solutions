@@ -109,6 +109,7 @@ LeetCode-Solutions/
 |-- 1071. Greatest Common Divisor of Strings.java
 |-- 1081. Smallest Subsequence of Distinct Characters.java
 |-- 1207. Unique Number of Occurrences.java
+|-- 1254. Number of Closed Islands.java
 |-- 1431. Kids With the Greatest Number of Candies.java
 |-- 1456. Maximum Number of Vowels in a Substring of Given Length.java
 |-- 1493. Longest Subarray of 1's After Deleting One Element.java
@@ -261,6 +262,7 @@ class Solution {
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy |
 | 1081 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | 🟡 Medium |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | 🟢 Easy |
+| 1254 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | 🟡 Medium |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 Easy |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 🟡 Medium |
 | 1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | 🟡 Medium |
@@ -314,7 +316,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[##############------]  109 / 150 solved
+[##############------]  110 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
