@@ -136,6 +136,7 @@ LeetCode-Solutions/
 |-- 3723. Maximize Sum of Squares of Digits.java
 |-- 3727. Maximum Alternating Sum of Squares.java
 |-- 3731.Find Missing Elements.java
+|-- 3841. Palindromic Path Queries in a Tree.java
 |-- 3863. Minimum Operations to Sort a String.java
 |-- 3882. Minimum XOR Path in a Grid.java
 |-- 3886. Sum of Sortable Integers.java
@@ -292,6 +293,7 @@ class Solution {
 | 3723 | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) | 🟡 Medium |
 | 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | 🟡 Medium |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy |
+| 3841 | [Palindromic Path Queries in a Tree](https://leetcode.com/problems/palindromic-path-queries-in-a-tree/) | 🔴 Hard |
 | 3863 | [Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/) | 🟡 Medium |
 | 3882 | [Minimum XOR Path in a Grid](https://leetcode.com/problems/minimum-xor-path-in-a-grid/) | 🟡 Medium |
 | 3886 | [Sum of Sortable Integers](https://leetcode.com/problems/sum-of-sortable-integers/) | 🔴 Hard |
@@ -322,7 +324,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[###############-----]  113 / 150 solved
+[###############-----]  114 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
