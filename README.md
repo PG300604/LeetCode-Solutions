@@ -142,6 +142,7 @@ LeetCode-Solutions/
 |-- 3886. Sum of Sortable Integers.java
 |-- 3942. Minimum Operations to Sort a Permutation.java
 |-- 3963. Create Grid With Exactly One Path.java
+|-- 3970. Shortest Path With At Most K Consecutive Identical Characters.java
 |-- 4043. Count Rotations With Exactly K Equal Adjacent Pairs.java
 |-- 4044. Count Good Cyclic Rotations.java
 |-- 4048. Count Values With Equally Spaced Occurrences I.java
@@ -299,6 +300,7 @@ class Solution {
 | 3886 | [Sum of Sortable Integers](https://leetcode.com/problems/sum-of-sortable-integers/) | 🔴 Hard |
 | 3942 | [Minimum Operations to Sort a Permutation](https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/) | 🟡 Medium |
 | 3963 | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | 🟢 Easy |
+| 3970 | [Shortest Path With At Most K Consecutive Identical Characters](https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/) | 🟡 Medium |
 | 4043 | [Count Rotations With Exactly K Equal Adjacent Pairs](https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/) | 🟢 Easy |
 | 4044 | [Count Good Cyclic Rotations](https://leetcode.com/problems/count-good-cyclic-rotations/) | 🟡 Medium |
 | 4048 | [Count Values With Equally Spaced Occurrences I](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | 🟢 Easy |
@@ -324,7 +326,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[###############-----]  114 / 150 solved
+[###############-----]  115 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
