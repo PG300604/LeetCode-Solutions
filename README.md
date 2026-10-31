@@ -133,6 +133,7 @@ LeetCode-Solutions/
 |-- 2916. Subarrays Distinct Element Sum of Squares II.java
 |-- 3619. Count Islands With Total Value Divisible by K.java
 |-- 3644. Maximum K to Sort a Permutation.java
+|-- 3665. Twisted Mirror Path Count.java
 |-- 3723. Maximize Sum of Squares of Digits.java
 |-- 3727. Maximum Alternating Sum of Squares.java
 |-- 3731.Find Missing Elements.java
@@ -291,6 +292,7 @@ class Solution {
 | 2916 | [Subarrays Distinct Element Sum of Squares II](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/) | 🔴 Hard |
 | 3619 | [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/) | 🟡 Medium |
 | 3644 | [Maximum K to Sort a Permutation](https://leetcode.com/problems/maximum-k-to-sort-a-permutation/) | 🟡 Medium |
+| 3665 | [Twisted Mirror Path Count](https://leetcode.com/problems/twisted-mirror-path-count/) | 🟡 Medium |
 | 3723 | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) | 🟡 Medium |
 | 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | 🟡 Medium |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy |
@@ -326,7 +328,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[###############-----]  115 / 150 solved
+[###############-----]  116 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
