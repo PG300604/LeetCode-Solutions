@@ -94,6 +94,7 @@ LeetCode-Solutions/
 |-- 402. Remove K Digits.java
 |-- 443. String Compression.java
 |-- 448. Find All Numbers Disappeared in an Array.java
+|-- 453. Minimum Moves to Equal Array Elements.java
 |-- 485. Max Consecutive Ones.java
 |-- 605. Can Place Flowers.java
 |-- 643. Maximum Average Subarray.java
@@ -253,6 +254,7 @@ class Solution {
 | 402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | 🟡 Medium |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | 🟡 Medium |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🟢 Easy |
+| 453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) | 🟡 Medium |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy |
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | 🟢 Easy |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | 🟢 Easy |
@@ -328,7 +330,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[###############-----]  116 / 150 solved
+[###############-----]  117 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
