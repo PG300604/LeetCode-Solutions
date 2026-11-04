@@ -133,6 +133,7 @@ LeetCode-Solutions/
 |-- 2778. Sum of Squares of Special Elements .java
 |-- 2913. Subarrays Distinct Element Sum of Squares I.java
 |-- 2916. Subarrays Distinct Element Sum of Squares II.java
+|-- 3505. Minimum Operations to Make Elements Within K Subarrays Equal.java
 |-- 3619. Count Islands With Total Value Divisible by K.java
 |-- 3644. Maximum K to Sort a Permutation.java
 |-- 3665. Twisted Mirror Path Count.java
@@ -295,6 +296,7 @@ class Solution {
 | 2778 | [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | 🟢 Easy |
 | 2913 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | 🟢 Easy |
 | 2916 | [Subarrays Distinct Element Sum of Squares II](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/) | 🔴 Hard |
+| 3505 | [Minimum Operations to Make Elements Within K Subarrays Equal](https://leetcode.com/problems/minimum-operations-to-make-elements-within-k-subarrays-equal/) | 🔴 Hard |
 | 3619 | [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/) | 🟡 Medium |
 | 3644 | [Maximum K to Sort a Permutation](https://leetcode.com/problems/maximum-k-to-sort-a-permutation/) | 🟡 Medium |
 | 3665 | [Twisted Mirror Path Count](https://leetcode.com/problems/twisted-mirror-path-count/) | 🟡 Medium |
@@ -334,7 +336,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[###############-----]  119 / 150 solved
+[################----]  120 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
