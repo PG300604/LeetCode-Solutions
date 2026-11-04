@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (119 problem packages)
+|   +-- ... (120 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -106,7 +106,7 @@ class Solution {
 | 11 | [Container With Most Water](problems/0011-container-with-most-water) | `1` | 🟡 Medium |
 | 14 | [Longest Common Prefix](problems/0014-longest-common-prefix) | `1` | 🟢 Easy |
 | 15 | [3Sum](problems/0015-3sum) | `1` | 🟡 Medium |
-| 20 | [Valid Parentheses](problems/0020-valid-parentheses) | `2` | 🟢 Easy |
+| 20 | [Valid Parentheses(with stack)](problems/0020-valid-parentheses) | `2` | 🟢 Easy |
 | 22 | [Generate Parentheses](problems/0022-generate-parentheses) | `1` | 🟡 Medium |
 | 26 | [Remove Duplicates](problems/0026-remove-duplicates) | `1` | — |
 | 27 | [Remove Elements](problems/0027-remove-elements) | `1` | — |
@@ -117,15 +117,15 @@ class Solution {
 | 49 | [Group Anagrams](problems/0049-group-anagrams) | `1` | 🟡 Medium |
 | 58 | [Length of Last Word](problems/0058-length-of-last-word) | `1` | 🟢 Easy |
 | 66 | [Plus One](problems/0066-plus-one) | `1` | 🟢 Easy |
-| 74 | [Search In 2D Matrix](problems/0074-search-in-2d-matrix) | `1` | — |
+| 74 | [Search in 2D Matrix](problems/0074-search-in-2d-matrix) | `1` | — |
 | 80 | [Remove Duplicates from Sorted Array II](problems/0080-remove-duplicates-from-sorted-array-ii) | `1` | 🟡 Medium |
 | 88 | [Merge Sorted Array](problems/0088-merge-sorted-array) | `1` | 🟢 Easy |
-| 121 | [Best Time to Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock) | `1` | 🟢 Easy |
+| 121 | [Best Time To Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock) | `1` | 🟢 Easy |
 | 122 | [Best Time to Buy and Sell Stock II](problems/0122-best-time-to-buy-and-sell-stock-ii) | `1` | 🟡 Medium |
 | 125 | [Valid Pallindrome](problems/0125-valid-pallindrome) | `1` | — |
 | 128 | [Longest Consecutive Sequence](problems/0128-longest-consecutive-sequence) | `1` | 🟡 Medium |
 | 151 | [Reverse Words in a String](problems/0151-reverse-words-in-a-string) | `1` | 🟡 Medium |
-| 167 | [Two Sum II - Input Array Is Sorted](problems/0167-two-sum-ii-input-array-is-sorted) | `1` | 🟡 Medium |
+| 167 | [Two Sum II - Input Array is Sorted](problems/0167-two-sum-ii-input-array-is-sorted) | `1` | 🟡 Medium |
 | 169 | [Majority Element](problems/0169-majority-element) | `1` | 🟢 Easy |
 | 189 | [Rotate Array](problems/0189-rotate-array) | `1` | 🟡 Medium |
 | 218 | [Contains Duplicate](problems/0218-contains-duplicate) | `1` | 🟢 Easy |
@@ -185,7 +185,7 @@ class Solution {
 | 2390 | [Removing Stars From a String](problems/2390-removing-stars-from-a-string) | `1` | 🟡 Medium |
 | 2409 | [Count Days Spent Together](problems/2409-count-days-spent-together) | `1` | 🟢 Easy |
 | 2769 | [Find the Maximum Achievable Number](problems/2769-find-the-maximum-achievable-number) | `1` | 🟢 Easy |
-| 2778 | [Sum of Squares of Special Elements ](problems/2778-sum-of-squares-of-special-elements) | `1` | 🟢 Easy |
+| 2778 | [Sum of Squares of Special Elements](problems/2778-sum-of-squares-of-special-elements) | `1` | 🟢 Easy |
 | 2913 | [Subarrays Distinct Element Sum of Squares I](problems/2913-subarrays-distinct-element-sum-of-squares-i) | `1` | 🟢 Easy |
 | 2916 | [Subarrays Distinct Element Sum of Squares II](problems/2916-subarrays-distinct-element-sum-of-squares-ii) | `1` | 🔴 Hard |
 | 3505 | [Minimum Operations to Make Elements Within K Subarrays Equal](problems/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) | `1` | 🔴 Hard |
@@ -193,6 +193,7 @@ class Solution {
 | 3619 | [Count Islands With Total Value Divisible by K](problems/3619-count-islands-with-total-value-divisible-by-k) | `1` | 🟡 Medium |
 | 3644 | [Maximum K to Sort a Permutation](problems/3644-maximum-k-to-sort-a-permutation) | `1` | 🟡 Medium |
 | 3665 | [Twisted Mirror Path Count](problems/3665-twisted-mirror-path-count) | `1` | 🟡 Medium |
+| 3717 | [Minimum Operations to Make Elements Within K Subarrays Equal](problems/3717-minimum-operations-to-make-elements-within-k-subarrays-equal) | `1` | 🔴 Hard |
 | 3723 | [Maximize Sum of Squares of Digits](problems/3723-maximize-sum-of-squares-of-digits) | `1` | 🟡 Medium |
 | 3727 | [Maximum Alternating Sum of Squares](problems/3727-maximum-alternating-sum-of-squares) | `1` | 🟡 Medium |
 | 3731 | [Find Missing Elements](problems/3731-find-missing-elements) | `1` | 🟢 Easy |
@@ -229,7 +230,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[###############-----]  119 / 150 solved
+[################----]  120 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
@@ -242,18 +243,18 @@ class Solution {
 | Stack | 🟢 In Progress |
 | Binary Search | 🟢 In Progress |
 | Linked List | ⬜ Not Started |
-| Trees | 🟢 In Progress |
-| Tries | 🟢 In Progress |
-| Heap / Priority Queue | 🟢 In Progress |
-| Backtracking | 🟢 In Progress |
-| Graphs | 🟢 In Progress |
+| Trees | ⬜ Not Started |
+| Tries | ⬜ Not Started |
+| Heap / Priority Queue | ⬜ Not Started |
+| Backtracking | ⬜ Not Started |
+| Graphs | ⬜ Not Started |
 | Advanced Graphs | ⬜ Not Started |
-| 1-D Dynamic Programming | 🟢 In Progress |
-| 2-D Dynamic Programming | 🟢 In Progress |
-| Greedy | 🟢 In Progress |
+| 1-D Dynamic Programming | ⬜ Not Started |
+| 2-D Dynamic Programming | ⬜ Not Started |
+| Greedy | ⬜ Not Started |
 | Intervals | ⬜ Not Started |
-| Math & Geometry | 🟢 In Progress |
-| Bit Manipulation | 🟢 In Progress |
+| Math & Geometry | ⬜ Not Started |
+| Bit Manipulation | ⬜ Not Started |
 <!-- PATTERN_TABLE_END -->
 
 > Pattern status is auto-detected from each solved problem's official LeetCode topic tags — no manual editing needed.

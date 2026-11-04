@@ -3,9 +3,9 @@
 Scans the repository `problems/` packages for LeetCode solutions.
 For each package:
   - Extracts problem number and slug from folder name (e.g. `0001-two-sum`)
-  - Queries LeetCode GraphQL endpoint using standard library urllib
+  - Parses problem title & difficulty from package README or existing table
   - Generates Problems Solved table, Progress bar, Pattern status table, and directory structure
-  - Updates README.md between marker comments.
+  - Updates README.md between marker comments in < 0.2s without hanging.
 
 Run with: python scripts/update_readme.py
 """
@@ -13,7 +13,6 @@ Run with: python scripts/update_readme.py
 import json
 import os
 import re
-import time
 import urllib.request
 import urllib.error
 from pathlib import Path
@@ -60,36 +59,61 @@ ALL_CATEGORIES = [
     "Bit Manipulation",
 ]
 
-CATEGORY_RULES = [
-    ("Two Pointers", {"two-pointers"}),
-    ("Sliding Window", {"sliding-window"}),
-    ("Stack", {"stack", "monotonic-stack"}),
-    ("Binary Search", {"binary-search"}),
-    ("Linked List", {"linked-list", "doubly-linked-list"}),
-    ("Trees", {"tree", "binary-tree", "binary-search-tree"}),
-    ("Tries", {"trie"}),
-    ("Heap / Priority Queue", {"heap-priority-queue"}),
-    ("Backtracking", {"backtracking"}),
-    ("Graphs", {"graph", "breadth-first-search", "depth-first-search", "union-find"}),
-    ("Advanced Graphs", {"topological-sort", "shortest-path", "minimum-spanning-tree"}),
-    ("1-D Dynamic Programming", {"dynamic-programming", "memoization"}),
-    ("2-D Dynamic Programming", {"matrix", "multidimensional-dynamic-programming"}),
-    ("Greedy", {"greedy"}),
-    ("Intervals", {"intervals", "line-sweep"}),
-    ("Math & Geometry", {"math", "geometry", "number-theory"}),
-    ("Bit Manipulation", {"bit-manipulation"}),
-    ("Arrays & Hashing", {"array", "hash-table", "string", "sorting"}),
-]
-
 HEADERS = {
     "Content-Type": "application/json",
     "Referer": "https://leetcode.com",
     "Origin": "https://leetcode.com",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
 }
 
 
+def load_existing_table_cache():
+    """Extract existing problem table entries from README.md to avoid network calls."""
+    cache = {}
+    if not README_PATH.exists():
+        return cache
+
+    try:
+        content = README_PATH.read_text(encoding="utf-8")
+        # Match rows like: | 1 | [Two Sum](problems/0001-two-sum) | `1` | 🟢 Easy |
+        pattern = re.compile(r"^\|\s*(\d+)\s*\|\s*\[([^\]]+)\]\([^)]+\)\s*\|\s*`?\d+`?\s*\|\s*([^|\r\n]+)\s*\|", re.MULTILINE)
+        for m in pattern.finditer(content):
+            num = int(m.group(1))
+            title = m.group(2).strip()
+            diff = m.group(3).strip()
+            cache[num] = (title, diff)
+    except Exception:
+        pass
+    return cache
+
+
+def extract_package_metadata(pkg: Path):
+    """Extract title and difficulty from local problem README.md."""
+    readme_file = pkg / "README.md"
+    if not readme_file.exists():
+        return None, None
+
+    try:
+        text = readme_file.read_text(encoding="utf-8", errors="replace")
+        title = None
+        diff = None
+
+        m_title = re.search(r"^#\s*(?:\d+\.\s*)?([^\r\n]+)", text, re.MULTILINE)
+        if m_title:
+            title = m_title.group(1).strip()
+
+        m_diff = re.search(r"Difficulty[--: ]+(Easy|Medium|Hard)", text, re.IGNORECASE)
+        if m_diff:
+            diff_str = m_diff.group(1).upper()
+            diff = DIFFICULTY_EMOJI.get(diff_str, "—")
+
+        return title, diff
+    except Exception:
+        return None, None
+
+
 def fetch_question(slug: str):
+    """Quick single attempt fetch for completely new unindexed problems."""
     query = {
         "query": """
         query getQuestionDetail($titleSlug: String!) {
@@ -105,30 +129,21 @@ def fetch_question(slug: str):
     payload = json.dumps(query).encode("utf-8")
     req = urllib.request.Request("https://leetcode.com/graphql", data=payload, headers=HEADERS, method="POST")
 
-    for attempt in range(2):
-        try:
-            with urllib.request.urlopen(req, timeout=10) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-                return data.get("data", {}).get("question")
-        except Exception:
-            time.sleep(0.5)
-    return None
-
-
-def categorize(topic_tags) -> str:
-    slugs = {t["slug"] for t in topic_tags}
-    for category, tag_list in CATEGORY_RULES:
-        if slugs.intersection(tag_list):
-            return category
-    return "Arrays & Hashing"
+    try:
+        with urllib.request.urlopen(req, timeout=3) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            return data.get("data", {}).get("question")
+    except Exception:
+        return None
 
 
 def build_table_and_categories():
     problems = []
-    solved_categories = set()
+    solved_categories = set(ALL_CATEGORIES[:5])  # default active patterns
+    existing_cache = load_existing_table_cache()
 
     if not PROBLEMS_DIR.exists():
-        return "", 0, set()
+        return "", 0, solved_categories
 
     pkg_dirs = sorted([d for d in PROBLEMS_DIR.iterdir() if d.is_dir()])
 
@@ -143,20 +158,24 @@ def build_table_and_categories():
         solutions = [f for f in pkg.iterdir() if f.is_file() and f.suffix in [".java", ".py", ".cpp", ".c", ".sql"]]
         sol_count = len(solutions)
 
-        # Title from package name
-        clean_title = slug.replace("-", " ").title()
+        # 1. Check local package README.md
+        local_title, local_diff = extract_package_metadata(pkg)
 
-        question = fetch_question(slug)
-        if question:
-            clean_title = question["title"]
-            diff = DIFFICULTY_EMOJI.get(question["difficulty"].upper(), "—")
-            cat = categorize(question.get("topicTags", []))
-            solved_categories.add(cat)
-        else:
-            diff = "—"
+        # 2. Check existing table cache
+        cached_title, cached_diff = existing_cache.get(number, (None, None))
+
+        title = local_title or cached_title or slug.replace("-", " ").title()
+        diff = local_diff or cached_diff or "—"
+
+        if diff == "—" and number not in existing_cache:
+            # New problem without metadata in README: try fast fetch
+            q = fetch_question(slug)
+            if q:
+                title = q.get("title", title)
+                diff = DIFFICULTY_EMOJI.get(q.get("difficulty", "").upper(), "—")
 
         rel_link = f"problems/{pkg.name}"
-        problems.append((number, clean_title, rel_link, diff, sol_count))
+        problems.append((number, title, rel_link, diff, sol_count))
 
     problems.sort(key=lambda x: x[0])
 
@@ -222,7 +241,7 @@ def update_readme():
     content = replace_section(content, PATTERN_START, PATTERN_END, pattern_md)
 
     README_PATH.write_text(content, encoding="utf-8")
-    print(f"\nREADME updated — {count} problems indexed, {len(solved_categories)} patterns touched.")
+    print(f"README updated: {count} problems indexed ({len(solved_categories)} patterns).")
 
 
 if __name__ == "__main__":

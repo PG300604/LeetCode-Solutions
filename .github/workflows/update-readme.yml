@@ -1,16 +1,17 @@
 name: Update README on New Solution
 
-# Runs automatically when a .java file is pushed to main,
-# and can also be triggered manually from the Actions tab
-# (useful for backfilling solutions committed before this workflow existed)
+# Triggers whenever a new solution is committed to problems/**,
+# or when triggered manually via workflow_dispatch, or daily at midnight UTC
 on:
   push:
     branches: [main]
     paths:
-      - "*.java"
+      - "problems/**"
+      - "scripts/**"
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
 
-# Let the workflow push the updated README back to the repo
 permissions:
   contents: write
 
@@ -25,10 +26,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-
-      - name: Install dependencies
-        run: pip install requests
+          python-version: "3.12"
 
       - name: Run README updater
         run: python scripts/update_readme.py
@@ -38,5 +36,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --staged --quiet || git commit -m "auto: update README with latest solutions"
-          git push
+          git diff --staged --quiet || (git commit -m "docs: auto-update README catalog with latest solutions [skip ci]" && git push)
