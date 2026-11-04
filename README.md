@@ -43,126 +43,20 @@ Solutions are named directly after the problem (e.g. `1. Two Sum.java`) and live
 <!-- STRUCTURE_START -->
 ```
 LeetCode-Solutions/
-|-- 1. Two Sum.java
-|-- 4.Median of Two Sorted Arrays.java
-|-- 7. Reverse Integer.java
-|-- 11. Container With Most Water.java
-|-- 14. Longest Common Prefix.java
-|-- 15. 3Sum.java
-|-- 20. Valid Parentheses.java
-|-- 20. Valid Parentheses(with stack).java
-|-- 22. Generate Parentheses.java
-|-- 26.Remove Duplicates.java
-|-- 27. Remove Elements.java
-|-- 28. Find the Index of the First Occurrence in a String.java
-|-- 32. Longest Valid Parentheses.java
-|-- 32.Trapping Rain Water.java
-|-- 34. Find First and Last Position of Element in Sorted Array.java
-|-- 35.Search Index Position.java
-|-- 49. Group Anagrams.java
-|-- 58. Length of Last Word.java
-|-- 66. Plus One.java
-|-- 74. Search in 2D Matrix.java
-|-- 80.Remove Duplicates from Sorted Array II.java
-|-- 88. Merge Sorted Array.java
-|-- 121.Best Time To Buy and Sell Stock.java
-|-- 122. Best Time to Buy and Sell Stock II.java
-|-- 125.Valid Pallindrome.java
-|-- 128.Longest Consecutive Sequence.java
-|-- 151. Reverse Words in a String.java
-|-- 167.Two Sum II - Input Array is Sorted.java
-|-- 169.Majority Element.java
-|-- 189. Rotate Array.java
-|-- 218. Contains Duplicate.java
-|-- 219. Contains Duplicate II.java
-|-- 223. Rectangle Area.java
-|-- 227. Basic Calculator II.java
-|-- 229.Majority Element II.java
-|-- 238.Product of Array Except Self.java
-|-- 242. Valid Anagram.java
-|-- 268. Missing Number.java
-|-- 283.Move Zeroes.java
-|-- 301. Remove Invalid Parentheses.java
-|-- 316. Remove Duplicate Letters.java
-|-- 334. Increasing Triplet Subsequence.java
-|-- 345. Reverse Vowels of a String.java
-|-- 347.Top K Frequent Elements.java
-|-- 349. Intersection of Two Arrays.java
-|-- 350. Intersection of Two Arrays II.java
-|-- 371.Sum of Two Integers.java
-|-- 392. Is Subsequence.java
-|-- 402. Remove K Digits.java
-|-- 443. String Compression.java
-|-- 448. Find All Numbers Disappeared in an Array.java
-|-- 453. Minimum Moves to Equal Array Elements.java
-|-- 462. Minimum Moves to Equal Array Elements II.java
-|-- 485. Max Consecutive Ones.java
-|-- 605. Can Place Flowers.java
-|-- 643. Maximum Average Subarray.java
-|-- 678. Valid Parenthesis String.java
-|-- 724. Find Pivot Index.java
-|-- 739. Daily Temperatures.java
-|-- 771. Jewels and Stones.java
-|-- 856. Score of Parentheses.java
-|-- 877.Stone Game.java
-|-- 921. Minimum Add to Make Parentheses Valid.java
-|-- 1004. Max Consecutive Ones III.java
-|-- 1021. Remove Outermost Parentheses.java
-|-- 1071. Greatest Common Divisor of Strings.java
-|-- 1081. Smallest Subsequence of Distinct Characters.java
-|-- 1207. Unique Number of Occurrences.java
-|-- 1254. Number of Closed Islands.java
-|-- 1431. Kids With the Greatest Number of Candies.java
-|-- 1456. Maximum Number of Vowels in a Substring of Given Length.java
-|-- 1493. Longest Subarray of 1's After Deleting One Element.java
-|-- 1541. Minimum Insertions to Balance a Parentheses String.java
-|-- 1569. Number of Ways to Reorder Array to Get Same BST.java
-|-- 1657. Determine if Two Strings Are Close.java
-|-- 1679. Max Number of K-Sum Pairs.java
-|-- 1748. Sum of Unique Elements.java
-|-- 1768. Merge Strings Alternately.java
-|-- 1929. Concatenation of Array.java
-|-- 2089. Find Target Indices After Sorting Array.java
-|-- 2215. Find the Difference of Two Arrays.java
-|-- 2235. Add Two Integers.java
-|-- 2333. Minimum Sum of Squared Difference.java
-|-- 2352. Equal Row and Column Pairs.java
-|-- 2390. Removing Stars From a String.java
-|-- 2409. Count Days Spent Together.java
-|-- 2769. Find the Maximum Achievable Number.java
-|-- 2778. Sum of Squares of Special Elements .java
-|-- 2913. Subarrays Distinct Element Sum of Squares I.java
-|-- 2916. Subarrays Distinct Element Sum of Squares II.java
-|-- 3505. Minimum Operations to Make Elements Within K Subarrays Equal.java
-|-- 3619. Count Islands With Total Value Divisible by K.java
-|-- 3644. Maximum K to Sort a Permutation.java
-|-- 3665. Twisted Mirror Path Count.java
-|-- 3723. Maximize Sum of Squares of Digits.java
-|-- 3727. Maximum Alternating Sum of Squares.java
-|-- 3731.Find Missing Elements.java
-|-- 3736. Minimum Moves to Equal Array Elements III.java
-|-- 3841. Palindromic Path Queries in a Tree.java
-|-- 3863. Minimum Operations to Sort a String.java
-|-- 3882. Minimum XOR Path in a Grid.java
-|-- 3886. Sum of Sortable Integers.java
-|-- 3942. Minimum Operations to Sort a Permutation.java
-|-- 3963. Create Grid With Exactly One Path.java
-|-- 3970. Shortest Path With At Most K Consecutive Identical Characters.java
-|-- 4043. Count Rotations With Exactly K Equal Adjacent Pairs.java
-|-- 4044. Count Good Cyclic Rotations.java
-|-- 4048. Count Values With Equally Spaced Occurrences I.java
-|-- 4049. Count Values With Equally Spaced Occurrences II.java
-|-- 4050. Minimum Days to Score Exactly N Points.java
-|-- 4052. Cyclically Shift Rows and Columns.java
-|-- 4061. Minimum Queen Moves to Reach Target.java
-|-- 4062. Transform Array Using Pair Operations.java
-|-- 4063. Longest Subarray Divisible by K with At Most One Negation I.java
-|-- 4070. Minimum Rotations to Dial a Number I.java
-|-- 4071. Minimum Rotations to Dial a Number II.java
-|-- 4074. Maximum Product Pair With Target Sum.java
-|-- 4075. Longest Resilient Subarray I.java
-|-- 4078. Three Fibonacci Sum.java
-+-- 4079. Prime Subset Selection I.java
++-- problems/
+|   +-- 0001-two-sum/
+|   +-- 0004-median-of-two-sorted-arrays/
+|   +-- 0007-reverse-integer/
+|   +-- 0011-container-with-most-water/
+|   +-- 0014-longest-common-prefix/
+|   +-- 0015-3sum/
+|   +-- 0020-valid-parentheses/
+|   +-- 0022-generate-parentheses/
+|   +-- 0026-remove-duplicates/
+|   +-- 0027-remove-elements/
+|   +-- ... (119 problem packages)
++-- scripts/
+|   +-- update_readme.py
 +-- README.md
 ```
 <!-- STRUCTURE_END -->
@@ -204,128 +98,127 @@ class Solution {
 ## 📌 Problems Solved
 
 <!-- PROBLEMS_TABLE_START -->
-| # | Problem | Difficulty |
-|---|---------|:---:|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy |
-| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard |
-| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium |
-| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium |
-| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy |
-| 15 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 Medium |
-| 20 | [Valid Parentheses(with stack)](https://leetcode.com/problems/valid-parentheseswith-stack/) | — |
-| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy |
-| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 🟡 Medium |
-| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy |
-| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy |
-| 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 🟢 Easy |
-| 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | 🔴 Hard |
-| 32 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Hard |
-| 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium |
-| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium |
-| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | 🟢 Easy |
-| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy |
-| 74 | [Search in 2D Matrix](https://leetcode.com/problems/search-in-2d-matrix/) | — |
-| 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 Medium |
-| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy |
-| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy |
-| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | 🟡 Medium |
-| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 🟢 Easy |
-| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium |
-| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium |
-| 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟡 Medium |
-| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy |
-| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium |
-| 218 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy |
-| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | 🟢 Easy |
-| 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | 🟡 Medium |
-| 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | 🟡 Medium |
-| 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | 🟡 Medium |
-| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy |
-| 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Easy |
-| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy |
-| 301 | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | 🔴 Hard |
-| 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium |
-| 334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | 🟡 Medium |
-| 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | 🟢 Easy |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Medium |
-| 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy |
-| 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy |
-| 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | 🟡 Medium |
-| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy |
-| 402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | 🟡 Medium |
-| 443 | [String Compression](https://leetcode.com/problems/string-compression/) | 🟡 Medium |
-| 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🟢 Easy |
-| 453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) | 🟡 Medium |
-| 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | 🟡 Medium |
-| 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy |
-| 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | 🟢 Easy |
-| 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | 🟢 Easy |
-| 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium |
-| 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | 🟢 Easy |
-| 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | 🟡 Medium |
-| 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy |
-| 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | 🟡 Medium |
-| 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium |
-| 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium |
-| 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | 🟡 Medium |
-| 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy |
-| 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy |
-| 1081 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | 🟡 Medium |
-| 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | 🟢 Easy |
-| 1254 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | 🟡 Medium |
-| 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 Easy |
-| 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 🟡 Medium |
-| 1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | 🟡 Medium |
-| 1541 | [Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/) | 🟡 Medium |
-| 1569 | [Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) | 🔴 Hard |
-| 1657 | [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | 🟡 Medium |
-| 1679 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | 🟡 Medium |
-| 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | 🟢 Easy |
-| 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | 🟢 Easy |
-| 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | 🟢 Easy |
-| 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy |
-| 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | 🟢 Easy |
-| 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | 🟢 Easy |
-| 2333 | [Minimum Sum of Squared Difference](https://leetcode.com/problems/minimum-sum-of-squared-difference/) | 🟡 Medium |
-| 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 Medium |
-| 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | 🟡 Medium |
-| 2409 | [Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/) | 🟢 Easy |
-| 2769 | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 Easy |
-| 2778 | [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | 🟢 Easy |
-| 2913 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | 🟢 Easy |
-| 2916 | [Subarrays Distinct Element Sum of Squares II](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/) | 🔴 Hard |
-| 3505 | [Minimum Operations to Make Elements Within K Subarrays Equal](https://leetcode.com/problems/minimum-operations-to-make-elements-within-k-subarrays-equal/) | 🔴 Hard |
-| 3619 | [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/) | 🟡 Medium |
-| 3644 | [Maximum K to Sort a Permutation](https://leetcode.com/problems/maximum-k-to-sort-a-permutation/) | 🟡 Medium |
-| 3665 | [Twisted Mirror Path Count](https://leetcode.com/problems/twisted-mirror-path-count/) | 🟡 Medium |
-| 3723 | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) | 🟡 Medium |
-| 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | 🟡 Medium |
-| 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy |
-| 3736 | [Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | 🟢 Easy |
-| 3841 | [Palindromic Path Queries in a Tree](https://leetcode.com/problems/palindromic-path-queries-in-a-tree/) | 🔴 Hard |
-| 3863 | [Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/) | 🟡 Medium |
-| 3882 | [Minimum XOR Path in a Grid](https://leetcode.com/problems/minimum-xor-path-in-a-grid/) | 🟡 Medium |
-| 3886 | [Sum of Sortable Integers](https://leetcode.com/problems/sum-of-sortable-integers/) | 🔴 Hard |
-| 3942 | [Minimum Operations to Sort a Permutation](https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/) | 🟡 Medium |
-| 3963 | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | 🟢 Easy |
-| 3970 | [Shortest Path With At Most K Consecutive Identical Characters](https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/) | 🟡 Medium |
-| 4043 | [Count Rotations With Exactly K Equal Adjacent Pairs](https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/) | 🟢 Easy |
-| 4044 | [Count Good Cyclic Rotations](https://leetcode.com/problems/count-good-cyclic-rotations/) | 🟡 Medium |
-| 4048 | [Count Values With Equally Spaced Occurrences I](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | 🟢 Easy |
-| 4049 | [Count Values With Equally Spaced Occurrences II](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | 🟡 Medium |
-| 4050 | [Minimum Days to Score Exactly N Points](https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/) | 🟡 Medium |
-| 4052 | [Cyclically Shift Rows and Columns](https://leetcode.com/problems/cyclically-shift-rows-and-columns/) | 🟢 Easy |
-| 4061 | [Minimum Queen Moves to Reach Target](https://leetcode.com/problems/minimum-queen-moves-to-reach-target/) | 🟢 Easy |
-| 4062 | [Transform Array Using Pair Operations](https://leetcode.com/problems/transform-array-using-pair-operations/) | 🟡 Medium |
-| 4063 | [Longest Subarray Divisible by K with At Most One Negation I](https://leetcode.com/problems/longest-subarray-divisible-by-k-with-at-most-one-negation-i/) | 🟡 Medium |
-| 4070 | [Minimum Rotations to Dial a Number I](https://leetcode.com/problems/minimum-rotations-to-dial-a-number-i/) | 🟢 Easy |
-| 4071 | [Minimum Rotations to Dial a Number II](https://leetcode.com/problems/minimum-rotations-to-dial-a-number-ii/) | 🟡 Medium |
-| 4074 | [Maximum Product Pair With Target Sum](https://leetcode.com/problems/maximum-product-pair-with-target-sum/) | 🟢 Easy |
-| 4075 | [Longest Resilient Subarray I](https://leetcode.com/problems/longest-resilient-subarray-i/) | 🟡 Medium |
-| 4078 | [Three Fibonacci Sum](https://leetcode.com/problems/three-fibonacci-sum/) | 🟢 Easy |
-| 4079 | [Prime Subset Selection I](https://leetcode.com/problems/prime-subset-selection-i/) | 🟡 Medium |
+| # | Problem | Solutions | Difficulty |
+|---|---------|:---:|:---:|
+| 1 | [Two Sum](problems/0001-two-sum) | `1` | 🟢 Easy |
+| 4 | [Median of Two Sorted Arrays](problems/0004-median-of-two-sorted-arrays) | `1` | 🔴 Hard |
+| 7 | [Reverse Integer](problems/0007-reverse-integer) | `1` | 🟡 Medium |
+| 11 | [Container With Most Water](problems/0011-container-with-most-water) | `1` | 🟡 Medium |
+| 14 | [Longest Common Prefix](problems/0014-longest-common-prefix) | `1` | 🟢 Easy |
+| 15 | [3Sum](problems/0015-3sum) | `1` | 🟡 Medium |
+| 20 | [Valid Parentheses](problems/0020-valid-parentheses) | `2` | 🟢 Easy |
+| 22 | [Generate Parentheses](problems/0022-generate-parentheses) | `1` | 🟡 Medium |
+| 26 | [Remove Duplicates](problems/0026-remove-duplicates) | `1` | — |
+| 27 | [Remove Elements](problems/0027-remove-elements) | `1` | — |
+| 28 | [Find the Index of the First Occurrence in a String](problems/0028-find-the-index-of-the-first-occurrence-in-a-string) | `1` | 🟢 Easy |
+| 32 | [Longest Valid Parentheses](problems/0032-longest-valid-parentheses) | `2` | 🔴 Hard |
+| 34 | [Find First and Last Position of Element in Sorted Array](problems/0034-find-first-and-last-position-of-element-in-sorted-array) | `1` | 🟡 Medium |
+| 35 | [Search Index Position](problems/0035-search-index-position) | `1` | — |
+| 49 | [Group Anagrams](problems/0049-group-anagrams) | `1` | 🟡 Medium |
+| 58 | [Length of Last Word](problems/0058-length-of-last-word) | `1` | 🟢 Easy |
+| 66 | [Plus One](problems/0066-plus-one) | `1` | 🟢 Easy |
+| 74 | [Search In 2D Matrix](problems/0074-search-in-2d-matrix) | `1` | — |
+| 80 | [Remove Duplicates from Sorted Array II](problems/0080-remove-duplicates-from-sorted-array-ii) | `1` | 🟡 Medium |
+| 88 | [Merge Sorted Array](problems/0088-merge-sorted-array) | `1` | 🟢 Easy |
+| 121 | [Best Time to Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock) | `1` | 🟢 Easy |
+| 122 | [Best Time to Buy and Sell Stock II](problems/0122-best-time-to-buy-and-sell-stock-ii) | `1` | 🟡 Medium |
+| 125 | [Valid Pallindrome](problems/0125-valid-pallindrome) | `1` | — |
+| 128 | [Longest Consecutive Sequence](problems/0128-longest-consecutive-sequence) | `1` | 🟡 Medium |
+| 151 | [Reverse Words in a String](problems/0151-reverse-words-in-a-string) | `1` | 🟡 Medium |
+| 167 | [Two Sum II - Input Array Is Sorted](problems/0167-two-sum-ii-input-array-is-sorted) | `1` | 🟡 Medium |
+| 169 | [Majority Element](problems/0169-majority-element) | `1` | 🟢 Easy |
+| 189 | [Rotate Array](problems/0189-rotate-array) | `1` | 🟡 Medium |
+| 218 | [Contains Duplicate](problems/0218-contains-duplicate) | `1` | 🟢 Easy |
+| 219 | [Contains Duplicate II](problems/0219-contains-duplicate-ii) | `1` | 🟢 Easy |
+| 223 | [Rectangle Area](problems/0223-rectangle-area) | `1` | 🟡 Medium |
+| 227 | [Basic Calculator II](problems/0227-basic-calculator-ii) | `1` | 🟡 Medium |
+| 229 | [Majority Element II](problems/0229-majority-element-ii) | `1` | 🟡 Medium |
+| 238 | [Product of Array Except Self](problems/0238-product-of-array-except-self) | `1` | 🟡 Medium |
+| 242 | [Valid Anagram](problems/0242-valid-anagram) | `1` | 🟢 Easy |
+| 268 | [Missing Number](problems/0268-missing-number) | `1` | 🟢 Easy |
+| 283 | [Move Zeroes](problems/0283-move-zeroes) | `1` | 🟢 Easy |
+| 301 | [Remove Invalid Parentheses](problems/0301-remove-invalid-parentheses) | `1` | 🔴 Hard |
+| 316 | [Remove Duplicate Letters](problems/0316-remove-duplicate-letters) | `1` | 🟡 Medium |
+| 334 | [Increasing Triplet Subsequence](problems/0334-increasing-triplet-subsequence) | `1` | 🟡 Medium |
+| 345 | [Reverse Vowels of a String](problems/0345-reverse-vowels-of-a-string) | `1` | 🟢 Easy |
+| 347 | [Top K Frequent Elements](problems/0347-top-k-frequent-elements) | `1` | 🟡 Medium |
+| 349 | [Intersection of Two Arrays](problems/0349-intersection-of-two-arrays) | `1` | 🟢 Easy |
+| 350 | [Intersection of Two Arrays II](problems/0350-intersection-of-two-arrays-ii) | `1` | 🟢 Easy |
+| 371 | [Sum of Two Integers](problems/0371-sum-of-two-integers) | `1` | 🟡 Medium |
+| 392 | [Is Subsequence](problems/0392-is-subsequence) | `1` | 🟢 Easy |
+| 402 | [Remove K Digits](problems/0402-remove-k-digits) | `1` | 🟡 Medium |
+| 443 | [String Compression](problems/0443-string-compression) | `1` | 🟡 Medium |
+| 448 | [Find All Numbers Disappeared in an Array](problems/0448-find-all-numbers-disappeared-in-an-array) | `1` | 🟢 Easy |
+| 453 | [Minimum Moves to Equal Array Elements](problems/0453-minimum-moves-to-equal-array-elements) | `1` | 🟡 Medium |
+| 462 | [Minimum Moves to Equal Array Elements II](problems/0462-minimum-moves-to-equal-array-elements-ii) | `1` | 🟡 Medium |
+| 485 | [Max Consecutive Ones](problems/0485-max-consecutive-ones) | `1` | 🟢 Easy |
+| 605 | [Can Place Flowers](problems/0605-can-place-flowers) | `1` | 🟢 Easy |
+| 643 | [Maximum Average Subarray](problems/0643-maximum-average-subarray) | `1` | — |
+| 678 | [Valid Parenthesis String](problems/0678-valid-parenthesis-string) | `1` | 🟡 Medium |
+| 724 | [Find Pivot Index](problems/0724-find-pivot-index) | `1` | 🟢 Easy |
+| 739 | [Daily Temperatures](problems/0739-daily-temperatures) | `1` | 🟡 Medium |
+| 771 | [Jewels and Stones](problems/0771-jewels-and-stones) | `1` | 🟢 Easy |
+| 856 | [Score of Parentheses](problems/0856-score-of-parentheses) | `1` | 🟡 Medium |
+| 877 | [Stone Game](problems/0877-stone-game) | `1` | 🟡 Medium |
+| 921 | [Minimum Add to Make Parentheses Valid](problems/0921-minimum-add-to-make-parentheses-valid) | `1` | 🟡 Medium |
+| 1004 | [Max Consecutive Ones III](problems/1004-max-consecutive-ones-iii) | `1` | 🟡 Medium |
+| 1021 | [Remove Outermost Parentheses](problems/1021-remove-outermost-parentheses) | `1` | 🟢 Easy |
+| 1071 | [Greatest Common Divisor of Strings](problems/1071-greatest-common-divisor-of-strings) | `1` | 🟢 Easy |
+| 1081 | [Smallest Subsequence of Distinct Characters](problems/1081-smallest-subsequence-of-distinct-characters) | `1` | 🟡 Medium |
+| 1207 | [Unique Number of Occurrences](problems/1207-unique-number-of-occurrences) | `1` | 🟢 Easy |
+| 1254 | [Number of Closed Islands](problems/1254-number-of-closed-islands) | `1` | 🟡 Medium |
+| 1431 | [Kids With the Greatest Number of Candies](problems/1431-kids-with-the-greatest-number-of-candies) | `1` | 🟢 Easy |
+| 1456 | [Maximum Number of Vowels in a Substring of Given Length](problems/1456-maximum-number-of-vowels-in-a-substring-of-given-length) | `1` | 🟡 Medium |
+| 1493 | [Longest Subarray of 1's After Deleting One Element](problems/1493-longest-subarray-of-1s-after-deleting-one-element) | `1` | 🟡 Medium |
+| 1541 | [Minimum Insertions to Balance a Parentheses String](problems/1541-minimum-insertions-to-balance-a-parentheses-string) | `1` | 🟡 Medium |
+| 1569 | [Number of Ways to Reorder Array to Get Same BST](problems/1569-number-of-ways-to-reorder-array-to-get-same-bst) | `1` | 🔴 Hard |
+| 1657 | [Determine if Two Strings Are Close](problems/1657-determine-if-two-strings-are-close) | `1` | 🟡 Medium |
+| 1679 | [Max Number of K-Sum Pairs](problems/1679-max-number-of-k-sum-pairs) | `1` | 🟡 Medium |
+| 1748 | [Sum of Unique Elements](problems/1748-sum-of-unique-elements) | `1` | 🟢 Easy |
+| 1768 | [Merge Strings Alternately](problems/1768-merge-strings-alternately) | `1` | 🟢 Easy |
+| 1929 | [Concatenation of Array](problems/1929-concatenation-of-array) | `1` | 🟢 Easy |
+| 2089 | [Find Target Indices After Sorting Array](problems/2089-find-target-indices-after-sorting-array) | `1` | 🟢 Easy |
+| 2215 | [Find the Difference of Two Arrays](problems/2215-find-the-difference-of-two-arrays) | `1` | 🟢 Easy |
+| 2235 | [Add Two Integers](problems/2235-add-two-integers) | `1` | 🟢 Easy |
+| 2333 | [Minimum Sum of Squared Difference](problems/2333-minimum-sum-of-squared-difference) | `1` | 🟡 Medium |
+| 2352 | [Equal Row and Column Pairs](problems/2352-equal-row-and-column-pairs) | `1` | 🟡 Medium |
+| 2390 | [Removing Stars From a String](problems/2390-removing-stars-from-a-string) | `1` | 🟡 Medium |
+| 2409 | [Count Days Spent Together](problems/2409-count-days-spent-together) | `1` | 🟢 Easy |
+| 2769 | [Find the Maximum Achievable Number](problems/2769-find-the-maximum-achievable-number) | `1` | 🟢 Easy |
+| 2778 | [Sum of Squares of Special Elements ](problems/2778-sum-of-squares-of-special-elements) | `1` | 🟢 Easy |
+| 2913 | [Subarrays Distinct Element Sum of Squares I](problems/2913-subarrays-distinct-element-sum-of-squares-i) | `1` | 🟢 Easy |
+| 2916 | [Subarrays Distinct Element Sum of Squares II](problems/2916-subarrays-distinct-element-sum-of-squares-ii) | `1` | 🔴 Hard |
+| 3505 | [Minimum Operations to Make Elements Within K Subarrays Equal](problems/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) | `1` | 🔴 Hard |
+| 3551 | [Minimum Swaps to Sort by Digit Sum](problems/3551-minimum-swaps-to-sort-by-digit-sum) | `1` | 🟡 Medium |
+| 3619 | [Count Islands With Total Value Divisible by K](problems/3619-count-islands-with-total-value-divisible-by-k) | `1` | 🟡 Medium |
+| 3644 | [Maximum K to Sort a Permutation](problems/3644-maximum-k-to-sort-a-permutation) | `1` | 🟡 Medium |
+| 3665 | [Twisted Mirror Path Count](problems/3665-twisted-mirror-path-count) | `1` | 🟡 Medium |
+| 3723 | [Maximize Sum of Squares of Digits](problems/3723-maximize-sum-of-squares-of-digits) | `1` | 🟡 Medium |
+| 3727 | [Maximum Alternating Sum of Squares](problems/3727-maximum-alternating-sum-of-squares) | `1` | 🟡 Medium |
+| 3731 | [Find Missing Elements](problems/3731-find-missing-elements) | `1` | 🟢 Easy |
+| 3736 | [Minimum Moves to Equal Array Elements III](problems/3736-minimum-moves-to-equal-array-elements-iii) | `1` | 🟢 Easy |
+| 3841 | [Palindromic Path Queries in a Tree](problems/3841-palindromic-path-queries-in-a-tree) | `1` | 🔴 Hard |
+| 3863 | [Minimum Operations to Sort a String](problems/3863-minimum-operations-to-sort-a-string) | `1` | 🟡 Medium |
+| 3882 | [Minimum XOR Path in a Grid](problems/3882-minimum-xor-path-in-a-grid) | `1` | 🟡 Medium |
+| 3886 | [Sum of Sortable Integers](problems/3886-sum-of-sortable-integers) | `1` | 🔴 Hard |
+| 3942 | [Minimum Operations to Sort a Permutation](problems/3942-minimum-operations-to-sort-a-permutation) | `1` | 🟡 Medium |
+| 3963 | [Create Grid With Exactly One Path](problems/3963-create-grid-with-exactly-one-path) | `1` | 🟢 Easy |
+| 3970 | [Shortest Path With At Most K Consecutive Identical Characters](problems/3970-shortest-path-with-at-most-k-consecutive-identical-characters) | `1` | 🟡 Medium |
+| 4043 | [Count Rotations With Exactly K Equal Adjacent Pairs](problems/4043-count-rotations-with-exactly-k-equal-adjacent-pairs) | `1` | 🟢 Easy |
+| 4044 | [Count Good Cyclic Rotations](problems/4044-count-good-cyclic-rotations) | `1` | 🟡 Medium |
+| 4048 | [Count Values With Equally Spaced Occurrences I](problems/4048-count-values-with-equally-spaced-occurrences-i) | `1` | 🟢 Easy |
+| 4049 | [Count Values With Equally Spaced Occurrences II](problems/4049-count-values-with-equally-spaced-occurrences-ii) | `1` | 🟡 Medium |
+| 4050 | [Minimum Days to Score Exactly N Points](problems/4050-minimum-days-to-score-exactly-n-points) | `1` | 🟡 Medium |
+| 4052 | [Cyclically Shift Rows and Columns](problems/4052-cyclically-shift-rows-and-columns) | `1` | 🟢 Easy |
+| 4061 | [Minimum Queen Moves to Reach Target](problems/4061-minimum-queen-moves-to-reach-target) | `1` | 🟢 Easy |
+| 4062 | [Transform Array Using Pair Operations](problems/4062-transform-array-using-pair-operations) | `1` | 🟡 Medium |
+| 4063 | [Longest Subarray Divisible by K with At Most One Negation I](problems/4063-longest-subarray-divisible-by-k-with-at-most-one-negation-i) | `1` | 🟡 Medium |
+| 4070 | [Minimum Rotations to Dial a Number I](problems/4070-minimum-rotations-to-dial-a-number-i) | `1` | 🟢 Easy |
+| 4071 | [Minimum Rotations to Dial a Number II](problems/4071-minimum-rotations-to-dial-a-number-ii) | `1` | 🟡 Medium |
+| 4074 | [Maximum Product Pair With Target Sum](problems/4074-maximum-product-pair-with-target-sum) | `1` | 🟢 Easy |
+| 4075 | [Longest Resilient Subarray I](problems/4075-longest-resilient-subarray-i) | `1` | 🟡 Medium |
+| 4078 | [Three Fibonacci Sum](problems/4078-three-fibonacci-sum) | `1` | 🟢 Easy |
+| 4079 | [Prime Subset Selection I](problems/4079-prime-subset-selection-i) | `1` | 🟡 Medium |
 <!-- PROBLEMS_TABLE_END -->
 
 > This table updates **automatically** via GitHub Actions every time a new `.java` solution is pushed to `main`, using LeetCode's own search API to fetch the correct title, link, and difficulty — even if the filename has typos or shorthand.
@@ -336,28 +229,31 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[################----]  120 / 150 solved
+[###############-----]  119 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
 <!-- PATTERN_TABLE_START -->
 | Pattern | Status |
 |:---|:---:|
+| Arrays & Hashing | 🟢 In Progress |
 | Two Pointers | 🟢 In Progress |
 | Sliding Window | 🟢 In Progress |
 | Stack | 🟢 In Progress |
 | Binary Search | 🟢 In Progress |
 | Linked List | ⬜ Not Started |
 | Trees | 🟢 In Progress |
+| Tries | 🟢 In Progress |
 | Heap / Priority Queue | 🟢 In Progress |
 | Backtracking | 🟢 In Progress |
 | Graphs | 🟢 In Progress |
-| Dynamic Programming | 🟢 In Progress |
+| Advanced Graphs | ⬜ Not Started |
+| 1-D Dynamic Programming | 🟢 In Progress |
+| 2-D Dynamic Programming | 🟢 In Progress |
 | Greedy | 🟢 In Progress |
 | Intervals | ⬜ Not Started |
-| Bit Manipulation | 🟢 In Progress |
 | Math & Geometry | 🟢 In Progress |
-| Arrays & Hashing | 🟢 In Progress |
+| Bit Manipulation | 🟢 In Progress |
 <!-- PATTERN_TABLE_END -->
 
 > Pattern status is auto-detected from each solved problem's official LeetCode topic tags — no manual editing needed.
