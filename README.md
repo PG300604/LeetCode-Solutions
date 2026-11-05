@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (120 problem packages)
+|   +-- ... (122 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -167,8 +167,10 @@ class Solution {
 | 1081 | [Smallest Subsequence of Distinct Characters](problems/1081-smallest-subsequence-of-distinct-characters) | `1` | 🟡 Medium |
 | 1207 | [Unique Number of Occurrences](problems/1207-unique-number-of-occurrences) | `1` | 🟢 Easy |
 | 1254 | [Number of Closed Islands](problems/1254-number-of-closed-islands) | `1` | 🟡 Medium |
+| 1385 | [Find the Distance Value Between Two Arrays](problems/1385-find-the-distance-value-between-two-arrays) | `1` | 🟢 Easy |
 | 1431 | [Kids With the Greatest Number of Candies](problems/1431-kids-with-the-greatest-number-of-candies) | `1` | 🟢 Easy |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](problems/1456-maximum-number-of-vowels-in-a-substring-of-given-length) | `1` | 🟡 Medium |
+| 1486 | [Find the Distance Value Between Two Arrays](problems/1486-find-the-distance-value-between-two-arrays) | `1` | 🟢 Easy |
 | 1493 | [Longest Subarray of 1's After Deleting One Element](problems/1493-longest-subarray-of-1s-after-deleting-one-element) | `1` | 🟡 Medium |
 | 1541 | [Minimum Insertions to Balance a Parentheses String](problems/1541-minimum-insertions-to-balance-a-parentheses-string) | `1` | 🟡 Medium |
 | 1569 | [Number of Ways to Reorder Array to Get Same BST](problems/1569-number-of-ways-to-reorder-array-to-get-same-bst) | `1` | 🔴 Hard |
@@ -230,7 +232,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[################----]  120 / 150 solved
+[################----]  122 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
