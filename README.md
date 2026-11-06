@@ -189,7 +189,7 @@ class Solution {
 | 2747 | [Count Zero Request Servers](problems/2747-count-zero-request-servers) | `1` | 🟡 Medium |
 | 2769 | [Find the Maximum Achievable Number](problems/2769-find-the-maximum-achievable-number) | `1` | 🟢 Easy |
 | 2778 | [Sum of Squares of Special Elements](problems/2778-sum-of-squares-of-special-elements) | `1` | 🟢 Easy |
-| 2833 | [Count Zero Request Servers](problems/2833-count-zero-request-servers) | `1` | 🟡 Medium |
+| 2833 | [Count Zero Request Servers](problems/2833-count-zero-request-servers) | `2` | 🟡 Medium |
 | 2913 | [Subarrays Distinct Element Sum of Squares I](problems/2913-subarrays-distinct-element-sum-of-squares-i) | `1` | 🟢 Easy |
 | 2916 | [Subarrays Distinct Element Sum of Squares II](problems/2916-subarrays-distinct-element-sum-of-squares-ii) | `1` | 🔴 Hard |
 | 3505 | [Minimum Operations to Make Elements Within K Subarrays Equal](problems/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) | `1` | 🔴 Hard |
