@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (124 problem packages)
+|   +-- ... (126 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -178,7 +178,9 @@ class Solution {
 | 1679 | [Max Number of K-Sum Pairs](problems/1679-max-number-of-k-sum-pairs) | `1` | 🟡 Medium |
 | 1748 | [Sum of Unique Elements](problems/1748-sum-of-unique-elements) | `1` | 🟢 Easy |
 | 1768 | [Merge Strings Alternately](problems/1768-merge-strings-alternately) | `1` | 🟢 Easy |
+| 1882 | [Process Tasks Using Servers](problems/1882-process-tasks-using-servers) | `1` | 🟡 Medium |
 | 1929 | [Concatenation of Array](problems/1929-concatenation-of-array) | `1` | 🟢 Easy |
+| 2012 | [Process Tasks Using Servers](problems/2012-process-tasks-using-servers) | `1` | 🟡 Medium |
 | 2089 | [Find Target Indices After Sorting Array](problems/2089-find-target-indices-after-sorting-array) | `1` | 🟢 Easy |
 | 2215 | [Find the Difference of Two Arrays](problems/2215-find-the-difference-of-two-arrays) | `1` | 🟢 Easy |
 | 2235 | [Add Two Integers](problems/2235-add-two-integers) | `1` | 🟢 Easy |
@@ -234,7 +236,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[################----]  124 / 150 solved
+[################----]  126 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
