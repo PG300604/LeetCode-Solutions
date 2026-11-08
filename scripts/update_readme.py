@@ -137,6 +137,86 @@ def fetch_question(slug: str):
         return None
 
 
+def prune_run_drafts():
+    """Prune redundant 'Run Code' drafts that lack percentiles when real submissions exist."""
+    if not PROBLEMS_DIR.exists():
+        return
+
+    pattern = re.compile(r"^Solution_(\d{4}-\d{2}-\d{2})(?:_\d+)?\.(java|py|cpp|c|sql)$")
+    for pkg in PROBLEMS_DIR.iterdir():
+        if not pkg.is_dir():
+            continue
+
+        groups = {}
+        for f in pkg.iterdir():
+            if not f.is_file():
+                continue
+            m = pattern.match(f.name)
+            if m:
+                key = (m.group(1), f.suffix)
+                groups.setdefault(key, []).append(f)
+
+        for (date, ext), files in groups.items():
+            if len(files) <= 1:
+                continue
+
+            with_beats = []
+            without_beats = []
+            for f in files:
+                try:
+                    txt = f.read_text(encoding="utf-8", errors="replace")
+                    if "(beats " in txt:
+                        with_beats.append(f)
+                    else:
+                        without_beats.append(f)
+                except Exception:
+                    pass
+
+            # Prune only if one file has (beats ) and another does NOT
+            if with_beats and without_beats:
+                deleted_names = set()
+                for draft in without_beats:
+                    try:
+                        draft.unlink()
+                        deleted_names.add(draft.name)
+                    except Exception:
+                        pass
+
+                renamed_map = {}
+                if len(with_beats) == 1:
+                    survivor = with_beats[0]
+                    canonical_name = f"Solution_{date}{ext}"
+                    if survivor.name != canonical_name:
+                        canonical_path = pkg / canonical_name
+                        if canonical_path.exists():
+                            try:
+                                canonical_path.unlink()
+                            except Exception:
+                                pass
+                        try:
+                            survivor.rename(canonical_path)
+                            renamed_map[survivor.name] = canonical_name
+                        except Exception:
+                            pass
+
+                # Update package README.md
+                readme_path = pkg / "README.md"
+                if readme_path.exists() and (deleted_names or renamed_map):
+                    try:
+                        content = readme_path.read_text(encoding="utf-8", errors="replace")
+                        lines = content.splitlines()
+                        new_lines = []
+                        for line in lines:
+                            if any(d_name in line for d_name in deleted_names):
+                                continue
+                            for old_n, new_n in renamed_map.items():
+                                line = line.replace(old_n, new_n)
+                            new_lines.append(line)
+                        readme_path.write_text("\n".join(new_lines) + "\n", encoding="utf-8")
+                    except Exception:
+                        pass
+
+
 def build_table_and_categories():
     problems = []
     solved_categories = set(ALL_CATEGORIES[:5])  # default active patterns
@@ -154,8 +234,15 @@ def build_table_and_categories():
         number = int(m.group(1))
         slug = m.group(2)
 
-        # Count solutions
-        solutions = [f for f in pkg.iterdir() if f.is_file() and f.suffix in [".java", ".py", ".cpp", ".c", ".sql"]]
+        # Count solutions (ignoring stray .tmp or run drafts)
+        solutions = [
+            f
+            for f in pkg.iterdir()
+            if f.is_file()
+            and f.name.startswith("Solution_")
+            and not f.name.endswith(".tmp")
+            and f.suffix in [".java", ".py", ".cpp", ".c", ".sql"]
+        ]
         sol_count = len(solutions)
 
         # 1. Check local package README.md
@@ -228,6 +315,8 @@ def replace_section(content, start_marker, end_marker, new_body):
 def update_readme():
     if not README_PATH.exists():
         return
+
+    prune_run_drafts()
 
     content = README_PATH.read_text(encoding="utf-8")
     table_md, count, solved_categories = build_table_and_categories()
