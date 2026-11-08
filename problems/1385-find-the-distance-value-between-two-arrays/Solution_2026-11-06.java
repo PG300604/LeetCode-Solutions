@@ -3,8 +3,8 @@
  * Link: https://leetcode.com/problems/find-the-distance-value-between-two-arrays/
  * Language: java
  * Status: Accepted
- * Runtime: 1 ms
- * Memory: 41.9 MB
+ * Runtime: 7 ms (beats 29.90%)
+ * Memory: 46.2 MB (beats 60.07%)
  * Date: 2026-11-05 21:14:54
  */
 

@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (126 problem packages)
+|   +-- ... (123 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -167,10 +167,9 @@ class Solution {
 | 1081 | [Smallest Subsequence of Distinct Characters](problems/1081-smallest-subsequence-of-distinct-characters) | `1` | 🟡 Medium |
 | 1207 | [Unique Number of Occurrences](problems/1207-unique-number-of-occurrences) | `1` | 🟢 Easy |
 | 1254 | [Number of Closed Islands](problems/1254-number-of-closed-islands) | `1` | 🟡 Medium |
-| 1385 | [Find the Distance Value Between Two Arrays](problems/1385-find-the-distance-value-between-two-arrays) | `1` | 🟢 Easy |
+| 1385 | [Find the Distance Value Between Two Arrays](problems/1385-find-the-distance-value-between-two-arrays) | `2` | 🟢 Easy |
 | 1431 | [Kids With the Greatest Number of Candies](problems/1431-kids-with-the-greatest-number-of-candies) | `1` | 🟢 Easy |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](problems/1456-maximum-number-of-vowels-in-a-substring-of-given-length) | `1` | 🟡 Medium |
-| 1486 | [Find the Distance Value Between Two Arrays](problems/1486-find-the-distance-value-between-two-arrays) | `2` | 🟢 Easy |
 | 1493 | [Longest Subarray of 1's After Deleting One Element](problems/1493-longest-subarray-of-1s-after-deleting-one-element) | `1` | 🟡 Medium |
 | 1541 | [Minimum Insertions to Balance a Parentheses String](problems/1541-minimum-insertions-to-balance-a-parentheses-string) | `1` | 🟡 Medium |
 | 1569 | [Number of Ways to Reorder Array to Get Same BST](problems/1569-number-of-ways-to-reorder-array-to-get-same-bst) | `1` | 🔴 Hard |
@@ -178,9 +177,8 @@ class Solution {
 | 1679 | [Max Number of K-Sum Pairs](problems/1679-max-number-of-k-sum-pairs) | `1` | 🟡 Medium |
 | 1748 | [Sum of Unique Elements](problems/1748-sum-of-unique-elements) | `1` | 🟢 Easy |
 | 1768 | [Merge Strings Alternately](problems/1768-merge-strings-alternately) | `1` | 🟢 Easy |
-| 1882 | [Process Tasks Using Servers](problems/1882-process-tasks-using-servers) | `1` | 🟡 Medium |
+| 1882 | [Process Tasks Using Servers](problems/1882-process-tasks-using-servers) | `2` | 🟡 Medium |
 | 1929 | [Concatenation of Array](problems/1929-concatenation-of-array) | `1` | 🟢 Easy |
-| 2012 | [Process Tasks Using Servers](problems/2012-process-tasks-using-servers) | `2` | 🟡 Medium |
 | 2089 | [Find Target Indices After Sorting Array](problems/2089-find-target-indices-after-sorting-array) | `1` | 🟢 Easy |
 | 2215 | [Find the Difference of Two Arrays](problems/2215-find-the-difference-of-two-arrays) | `1` | 🟢 Easy |
 | 2235 | [Add Two Integers](problems/2235-add-two-integers) | `1` | 🟢 Easy |
@@ -188,10 +186,9 @@ class Solution {
 | 2352 | [Equal Row and Column Pairs](problems/2352-equal-row-and-column-pairs) | `1` | 🟡 Medium |
 | 2390 | [Removing Stars From a String](problems/2390-removing-stars-from-a-string) | `1` | 🟡 Medium |
 | 2409 | [Count Days Spent Together](problems/2409-count-days-spent-together) | `1` | 🟢 Easy |
-| 2747 | [Count Zero Request Servers](problems/2747-count-zero-request-servers) | `1` | 🟡 Medium |
+| 2747 | [Count Zero Request Servers](problems/2747-count-zero-request-servers) | `2` | 🟡 Medium |
 | 2769 | [Find the Maximum Achievable Number](problems/2769-find-the-maximum-achievable-number) | `1` | 🟢 Easy |
 | 2778 | [Sum of Squares of Special Elements](problems/2778-sum-of-squares-of-special-elements) | `1` | 🟢 Easy |
-| 2833 | [Count Zero Request Servers](problems/2833-count-zero-request-servers) | `2` | 🟡 Medium |
 | 2913 | [Subarrays Distinct Element Sum of Squares I](problems/2913-subarrays-distinct-element-sum-of-squares-i) | `1` | 🟢 Easy |
 | 2916 | [Subarrays Distinct Element Sum of Squares II](problems/2916-subarrays-distinct-element-sum-of-squares-ii) | `1` | 🔴 Hard |
 | 3505 | [Minimum Operations to Make Elements Within K Subarrays Equal](problems/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) | `1` | 🔴 Hard |
@@ -236,7 +233,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[################----]  126 / 150 solved
+[################----]  123 / 150 solved
 ```
 <!-- PROGRESS_END -->
 

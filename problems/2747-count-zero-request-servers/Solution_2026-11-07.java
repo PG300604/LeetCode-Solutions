@@ -3,8 +3,8 @@
  * Link: https://leetcode.com/problems/count-zero-request-servers/
  * Language: java
  * Status: Accepted
- * Runtime: 1 ms
- * Memory: 42.1 MB
+ * Runtime: 30 ms (beats 81.73%)
+ * Memory: 131.5 MB (beats 99.04%)
  * Date: 2026-11-06 18:43:47
  */
 

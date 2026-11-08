@@ -1,5 +1,5 @@
 /*
- * Problem: 1486. Find the Distance Value Between Two Arrays
+ * Problem: 1385. Find the Distance Value Between Two Arrays
  * Link: https://leetcode.com/problems/find-the-distance-value-between-two-arrays/
  * Language: java
  * Status: Accepted

@@ -1,5 +1,5 @@
 /*
- * Problem: 2833. Count Zero Request Servers
+ * Problem: 2747. Count Zero Request Servers
  * Link: https://leetcode.com/problems/count-zero-request-servers/
  * Language: java
  * Status: Accepted

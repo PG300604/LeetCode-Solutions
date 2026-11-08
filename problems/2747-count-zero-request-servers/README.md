@@ -12,4 +12,5 @@ Link to LeetCode: [Count Zero Request Servers](https://leetcode.com/problems/cou
 
 | Date | Solution | Language | Runtime | Memory |
 | :--- | :--- | :--- | :--- | :--- |
-| 2026-11-07 | [Solution_2026-11-07.java](./Solution_2026-11-07.java) | java | 1 ms | 42.1 MB |
+| 2026-11-07 | [Solution_2026-11-07.java](./Solution_2026-11-07.java) | java | 30 ms (beats 81.73%) | 131.5 MB (beats 99.04%) |
+| 2026-11-07 | [Solution_2026-11-07_001419.java](./Solution_2026-11-07_001419.java) | java | 26 ms (beats 100.00%) | 135.5 MB (beats 76.92%) |
