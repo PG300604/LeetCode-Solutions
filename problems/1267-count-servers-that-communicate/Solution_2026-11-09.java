@@ -3,9 +3,9 @@
  * Link: https://leetcode.com/problems/count-servers-that-communicate/
  * Language: java
  * Status: Accepted
- * Runtime: 2 ms (beats 100.00%)
- * Memory: 55.1 MB (beats 52.94%)
- * Date: 2026-11-08 20:22:48
+ * Runtime: 2ms (beats 100.00%)
+ * Memory: 55.05MB (beats 100.00%)
+ * Date: 2026-11-08 20:23:37
  */
 
 class Solution {
