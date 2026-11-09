@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (124 problem packages)
+|   +-- ... (125 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -174,6 +174,7 @@ class Solution {
 | 1493 | [Longest Subarray of 1's After Deleting One Element](problems/1493-longest-subarray-of-1s-after-deleting-one-element) | `1` | 🟡 Medium |
 | 1541 | [Minimum Insertions to Balance a Parentheses String](problems/1541-minimum-insertions-to-balance-a-parentheses-string) | `1` | 🟡 Medium |
 | 1569 | [Number of Ways to Reorder Array to Get Same BST](problems/1569-number-of-ways-to-reorder-array-to-get-same-bst) | `1` | 🔴 Hard |
+| 1606 | [Find Servers That Handled Most Number of Requests](problems/1606-find-servers-that-handled-most-number-of-requests) | `1` | 🔴 Hard |
 | 1657 | [Determine if Two Strings Are Close](problems/1657-determine-if-two-strings-are-close) | `1` | 🟡 Medium |
 | 1679 | [Max Number of K-Sum Pairs](problems/1679-max-number-of-k-sum-pairs) | `1` | 🟡 Medium |
 | 1748 | [Sum of Unique Elements](problems/1748-sum-of-unique-elements) | `1` | 🟢 Easy |
@@ -234,7 +235,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[################----]  124 / 150 solved
+[################----]  125 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
