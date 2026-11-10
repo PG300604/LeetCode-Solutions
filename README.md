@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (125 problem packages)
+|   +-- ... (126 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -198,6 +198,7 @@ class Solution {
 | 3619 | [Count Islands With Total Value Divisible by K](problems/3619-count-islands-with-total-value-divisible-by-k) | `1` | 🟡 Medium |
 | 3644 | [Maximum K to Sort a Permutation](problems/3644-maximum-k-to-sort-a-permutation) | `1` | 🟡 Medium |
 | 3665 | [Twisted Mirror Path Count](problems/3665-twisted-mirror-path-count) | `1` | 🟡 Medium |
+| 3693 | [Climbing Stairs II](problems/3693-climbing-stairs-ii) | `1` | 🟡 Medium |
 | 3717 | [Minimum Operations to Make Elements Within K Subarrays Equal](problems/3717-minimum-operations-to-make-elements-within-k-subarrays-equal) | `1` | 🔴 Hard |
 | 3723 | [Maximize Sum of Squares of Digits](problems/3723-maximize-sum-of-squares-of-digits) | `1` | 🟡 Medium |
 | 3727 | [Maximum Alternating Sum of Squares](problems/3727-maximum-alternating-sum-of-squares) | `1` | 🟡 Medium |
@@ -235,7 +236,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[################----]  125 / 150 solved
+[################----]  126 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
