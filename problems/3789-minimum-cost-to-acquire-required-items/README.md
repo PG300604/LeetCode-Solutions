@@ -13,3 +13,4 @@ Link to LeetCode: [Minimum Cost to Acquire Required Items](https://leetcode.com/
 | Date | Solution | Language | Runtime | Memory |
 | :--- | :--- | :--- | :--- | :--- |
 | 2026-11-12 | [Solution_2026-11-12.java](./Solution_2026-11-12.java) | java | 2 ms (beats 42.25%) | 42.4 MB (beats 56.34%) |
+| 2026-11-12 | [Solution_2026-11-12_010750.java](./Solution_2026-11-12_010750.java) | java | 2 ms (beats 42.25%) | 42.7 MB (beats 23.94%) |
