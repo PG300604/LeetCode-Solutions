@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (126 problem packages)
+|   +-- ... (127 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -204,6 +204,7 @@ class Solution {
 | 3727 | [Maximum Alternating Sum of Squares](problems/3727-maximum-alternating-sum-of-squares) | `1` | 🟡 Medium |
 | 3731 | [Find Missing Elements](problems/3731-find-missing-elements) | `1` | 🟢 Easy |
 | 3736 | [Minimum Moves to Equal Array Elements III](problems/3736-minimum-moves-to-equal-array-elements-iii) | `1` | 🟢 Easy |
+| 3789 | [Minimum Cost to Acquire Required Items](problems/3789-minimum-cost-to-acquire-required-items) | `1` | 🟡 Medium |
 | 3841 | [Palindromic Path Queries in a Tree](problems/3841-palindromic-path-queries-in-a-tree) | `1` | 🔴 Hard |
 | 3863 | [Minimum Operations to Sort a String](problems/3863-minimum-operations-to-sort-a-string) | `1` | 🟡 Medium |
 | 3882 | [Minimum XOR Path in a Grid](problems/3882-minimum-xor-path-in-a-grid) | `1` | 🟡 Medium |
@@ -236,7 +237,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[################----]  126 / 150 solved
+[################----]  127 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
