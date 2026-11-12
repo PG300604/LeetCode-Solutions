@@ -13,3 +13,4 @@ Link to LeetCode: [Longest Strictly Increasing or Strictly Decreasing Subarray](
 | Date | Solution | Language | Runtime | Memory |
 | :--- | :--- | :--- | :--- | :--- |
 | 2026-11-12 | [Solution_2026-11-12.java](./Solution_2026-11-12.java) | java | 2 ms (beats 14.94%) | 43.8 MB (beats 85.71%) |
+| 2026-11-12 | [Solution_2026-11-12_133334.java](./Solution_2026-11-12_133334.java) | java | 1 ms (beats 98.38%) | 43.9 MB (beats 85.71%) |
