@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (127 problem packages)
+|   +-- ... (128 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -193,6 +193,7 @@ class Solution {
 | 2778 | [Sum of Squares of Special Elements](problems/2778-sum-of-squares-of-special-elements) | `1` | 🟢 Easy |
 | 2913 | [Subarrays Distinct Element Sum of Squares I](problems/2913-subarrays-distinct-element-sum-of-squares-i) | `1` | 🟢 Easy |
 | 2916 | [Subarrays Distinct Element Sum of Squares II](problems/2916-subarrays-distinct-element-sum-of-squares-ii) | `1` | 🔴 Hard |
+| 3105 | [Longest Strictly Increasing or Strictly Decreasing Subarray](problems/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) | `1` | 🟢 Easy |
 | 3505 | [Minimum Operations to Make Elements Within K Subarrays Equal](problems/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) | `1` | 🔴 Hard |
 | 3551 | [Minimum Swaps to Sort by Digit Sum](problems/3551-minimum-swaps-to-sort-by-digit-sum) | `1` | 🟡 Medium |
 | 3619 | [Count Islands With Total Value Divisible by K](problems/3619-count-islands-with-total-value-divisible-by-k) | `1` | 🟡 Medium |
@@ -237,7 +238,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[################----]  127 / 150 solved
+[#################---]  128 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
