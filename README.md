@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (130 problem packages)
+|   +-- ... (131 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -172,6 +172,7 @@ class Solution {
 | 1431 | [Kids With the Greatest Number of Candies](problems/1431-kids-with-the-greatest-number-of-candies) | `1` | 🟢 Easy |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](problems/1456-maximum-number-of-vowels-in-a-substring-of-given-length) | `1` | 🟡 Medium |
 | 1493 | [Longest Subarray of 1's After Deleting One Element](problems/1493-longest-subarray-of-1s-after-deleting-one-element) | `1` | 🟡 Medium |
+| 1524 | [Number of Sub-arrays With Odd Sum](problems/1524-number-of-sub-arrays-with-odd-sum) | `1` | 🟡 Medium |
 | 1541 | [Minimum Insertions to Balance a Parentheses String](problems/1541-minimum-insertions-to-balance-a-parentheses-string) | `1` | 🟡 Medium |
 | 1569 | [Number of Ways to Reorder Array to Get Same BST](problems/1569-number-of-ways-to-reorder-array-to-get-same-bst) | `1` | 🔴 Hard |
 | 1606 | [Find Servers That Handled Most Number of Requests](problems/1606-find-servers-that-handled-most-number-of-requests) | `1` | 🔴 Hard |
@@ -240,7 +241,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#################---]  130 / 150 solved
+[#################---]  131 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
