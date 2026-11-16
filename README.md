@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (131 problem packages)
+|   +-- ... (132 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -185,6 +185,7 @@ class Solution {
 | 2089 | [Find Target Indices After Sorting Array](problems/2089-find-target-indices-after-sorting-array) | `1` | 🟢 Easy |
 | 2215 | [Find the Difference of Two Arrays](problems/2215-find-the-difference-of-two-arrays) | `1` | 🟢 Easy |
 | 2235 | [Add Two Integers](problems/2235-add-two-integers) | `1` | 🟢 Easy |
+| 2243 | [Calculate Digit Sum of a String](problems/2243-calculate-digit-sum-of-a-string) | `1` | 🟢 Easy |
 | 2333 | [Minimum Sum of Squared Difference](problems/2333-minimum-sum-of-squared-difference) | `1` | 🟡 Medium |
 | 2352 | [Equal Row and Column Pairs](problems/2352-equal-row-and-column-pairs) | `1` | 🟡 Medium |
 | 2390 | [Removing Stars From a String](problems/2390-removing-stars-from-a-string) | `1` | 🟡 Medium |
@@ -241,7 +242,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#################---]  131 / 150 solved
+[#################---]  132 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
