@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (132 problem packages)
+|   +-- ... (133 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -193,6 +193,7 @@ class Solution {
 | 2747 | [Count Zero Request Servers](problems/2747-count-zero-request-servers) | `2` | 🟡 Medium |
 | 2769 | [Find the Maximum Achievable Number](problems/2769-find-the-maximum-achievable-number) | `1` | 🟢 Easy |
 | 2778 | [Sum of Squares of Special Elements](problems/2778-sum-of-squares-of-special-elements) | `1` | 🟢 Easy |
+| 2911 | [Minimum Changes to Make K Semi-palindromes](problems/2911-minimum-changes-to-make-k-semi-palindromes) | `1` | 🔴 Hard |
 | 2913 | [Subarrays Distinct Element Sum of Squares I](problems/2913-subarrays-distinct-element-sum-of-squares-i) | `1` | 🟢 Easy |
 | 2916 | [Subarrays Distinct Element Sum of Squares II](problems/2916-subarrays-distinct-element-sum-of-squares-ii) | `1` | 🔴 Hard |
 | 3105 | [Longest Strictly Increasing or Strictly Decreasing Subarray](problems/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) | `2` | 🟢 Easy |
@@ -242,7 +243,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#################---]  132 / 150 solved
+[#################---]  133 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
