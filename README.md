@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (134 problem packages)
+|   +-- ... (135 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -190,6 +190,7 @@ class Solution {
 | 2352 | [Equal Row and Column Pairs](problems/2352-equal-row-and-column-pairs) | `1` | 🟡 Medium |
 | 2390 | [Removing Stars From a String](problems/2390-removing-stars-from-a-string) | `1` | 🟡 Medium |
 | 2409 | [Count Days Spent Together](problems/2409-count-days-spent-together) | `1` | 🟢 Easy |
+| 2567 | [Minimum Score by Changing Two Elements](problems/2567-minimum-score-by-changing-two-elements) | `1` | 🟡 Medium |
 | 2747 | [Count Zero Request Servers](problems/2747-count-zero-request-servers) | `2` | 🟡 Medium |
 | 2769 | [Find the Maximum Achievable Number](problems/2769-find-the-maximum-achievable-number) | `1` | 🟢 Easy |
 | 2778 | [Sum of Squares of Special Elements](problems/2778-sum-of-squares-of-special-elements) | `1` | 🟢 Easy |
@@ -244,7 +245,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[#################---]  134 / 150 solved
+[##################--]  135 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
