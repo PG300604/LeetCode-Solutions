@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (135 problem packages)
+|   +-- ... (136 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -198,6 +198,7 @@ class Solution {
 | 2913 | [Subarrays Distinct Element Sum of Squares I](problems/2913-subarrays-distinct-element-sum-of-squares-i) | `1` | 🟢 Easy |
 | 2914 | [Minimum Number of Changes to Make Binary String Beautiful](problems/2914-minimum-number-of-changes-to-make-binary-string-beautiful) | `1` | 🟡 Medium |
 | 2916 | [Subarrays Distinct Element Sum of Squares II](problems/2916-subarrays-distinct-element-sum-of-squares-ii) | `1` | 🔴 Hard |
+| 3041 | [Maximize Consecutive Elements in an Array After Modification](problems/3041-maximize-consecutive-elements-in-an-array-after-modification) | `2` | 🔴 Hard |
 | 3105 | [Longest Strictly Increasing or Strictly Decreasing Subarray](problems/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) | `2` | 🟢 Easy |
 | 3364 | [Minimum Positive Sum Subarray](problems/3364-minimum-positive-sum-subarray) | `1` | 🟢 Easy |
 | 3420 | [Count Non-Decreasing Subarrays After K Operations](problems/3420-count-non-decreasing-subarrays-after-k-operations) | `1` | 🔴 Hard |
@@ -245,7 +246,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[##################--]  135 / 150 solved
+[##################--]  136 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
