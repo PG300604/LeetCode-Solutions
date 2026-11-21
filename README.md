@@ -200,7 +200,7 @@ class Solution {
 | 2916 | [Subarrays Distinct Element Sum of Squares II](problems/2916-subarrays-distinct-element-sum-of-squares-ii) | `1` | 🔴 Hard |
 | 3041 | [Maximize Consecutive Elements in an Array After Modification](problems/3041-maximize-consecutive-elements-in-an-array-after-modification) | `2` | 🔴 Hard |
 | 3105 | [Longest Strictly Increasing or Strictly Decreasing Subarray](problems/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) | `2` | 🟢 Easy |
-| 3331 | [Find Subtree Sizes After Changes](problems/3331-find-subtree-sizes-after-changes) | `1` | 🟡 Medium |
+| 3331 | [Find Subtree Sizes After Changes](problems/3331-find-subtree-sizes-after-changes) | `2` | 🟡 Medium |
 | 3364 | [Minimum Positive Sum Subarray](problems/3364-minimum-positive-sum-subarray) | `1` | 🟢 Easy |
 | 3420 | [Count Non-Decreasing Subarrays After K Operations](problems/3420-count-non-decreasing-subarrays-after-k-operations) | `1` | 🔴 Hard |
 | 3505 | [Minimum Operations to Make Elements Within K Subarrays Equal](problems/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) | `1` | 🔴 Hard |
