@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (137 problem packages)
+|   +-- ... (138 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -183,6 +183,7 @@ class Solution {
 | 1882 | [Process Tasks Using Servers](problems/1882-process-tasks-using-servers) | `2` | 🟡 Medium |
 | 1929 | [Concatenation of Array](problems/1929-concatenation-of-array) | `1` | 🟢 Easy |
 | 2089 | [Find Target Indices After Sorting Array](problems/2089-find-target-indices-after-sorting-array) | `1` | 🟢 Easy |
+| 2124 | [Check if All A's Appears Before All B's](problems/2124-check-if-all-as-appears-before-all-bs) | `1` | 🟢 Easy |
 | 2215 | [Find the Difference of Two Arrays](problems/2215-find-the-difference-of-two-arrays) | `1` | 🟢 Easy |
 | 2235 | [Add Two Integers](problems/2235-add-two-integers) | `1` | 🟢 Easy |
 | 2243 | [Calculate Digit Sum of a String](problems/2243-calculate-digit-sum-of-a-string) | `1` | 🟢 Easy |
@@ -247,7 +248,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[##################--]  137 / 150 solved
+[##################--]  138 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
