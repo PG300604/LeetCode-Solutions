@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (138 problem packages)
+|   +-- ... (139 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -168,6 +168,7 @@ class Solution {
 | 1207 | [Unique Number of Occurrences](problems/1207-unique-number-of-occurrences) | `1` | 🟢 Easy |
 | 1254 | [Number of Closed Islands](problems/1254-number-of-closed-islands) | `1` | 🟡 Medium |
 | 1267 | [Count Servers that Communicate](problems/1267-count-servers-that-communicate) | `1` | 🟡 Medium |
+| 1352 | [Product of the Last K Numbers](problems/1352-product-of-the-last-k-numbers) | `1` | 🟡 Medium |
 | 1385 | [Find the Distance Value Between Two Arrays](problems/1385-find-the-distance-value-between-two-arrays) | `2` | 🟢 Easy |
 | 1431 | [Kids With the Greatest Number of Candies](problems/1431-kids-with-the-greatest-number-of-candies) | `1` | 🟢 Easy |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](problems/1456-maximum-number-of-vowels-in-a-substring-of-given-length) | `1` | 🟡 Medium |
@@ -248,7 +249,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[##################--]  138 / 150 solved
+[##################--]  139 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
