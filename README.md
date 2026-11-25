@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (140 problem packages)
+|   +-- ... (141 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -222,6 +222,7 @@ class Solution {
 | 3863 | [Minimum Operations to Sort a String](problems/3863-minimum-operations-to-sort-a-string) | `1` | 🟡 Medium |
 | 3882 | [Minimum XOR Path in a Grid](problems/3882-minimum-xor-path-in-a-grid) | `1` | 🟡 Medium |
 | 3886 | [Sum of Sortable Integers](problems/3886-sum-of-sortable-integers) | `1` | 🔴 Hard |
+| 3934 | [Smallest Unique Subarray](problems/3934-smallest-unique-subarray) | `1` | 🔴 Hard |
 | 3942 | [Minimum Operations to Sort a Permutation](problems/3942-minimum-operations-to-sort-a-permutation) | `1` | 🟡 Medium |
 | 3963 | [Create Grid With Exactly One Path](problems/3963-create-grid-with-exactly-one-path) | `1` | 🟢 Easy |
 | 3970 | [Shortest Path With At Most K Consecutive Identical Characters](problems/3970-shortest-path-with-at-most-k-consecutive-identical-characters) | `1` | 🟡 Medium |
@@ -250,7 +251,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[##################--]  140 / 150 solved
+[##################--]  141 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
