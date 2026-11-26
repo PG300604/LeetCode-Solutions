@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (141 problem packages)
+|   +-- ... (142 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -203,6 +203,7 @@ class Solution {
 | 3041 | [Maximize Consecutive Elements in an Array After Modification](problems/3041-maximize-consecutive-elements-in-an-array-after-modification) | `2` | 🔴 Hard |
 | 3105 | [Longest Strictly Increasing or Strictly Decreasing Subarray](problems/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) | `2` | 🟢 Easy |
 | 3331 | [Find Subtree Sizes After Changes](problems/3331-find-subtree-sizes-after-changes) | `2` | 🟡 Medium |
+| 3360 | [Stone Removal Game](problems/3360-stone-removal-game) | `1` | 🟢 Easy |
 | 3364 | [Minimum Positive Sum Subarray](problems/3364-minimum-positive-sum-subarray) | `1` | 🟢 Easy |
 | 3411 | [Maximum Subarray With Equal Products](problems/3411-maximum-subarray-with-equal-products) | `1` | 🟢 Easy |
 | 3420 | [Count Non-Decreasing Subarrays After K Operations](problems/3420-count-non-decreasing-subarrays-after-k-operations) | `1` | 🔴 Hard |
@@ -251,7 +252,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[##################--]  141 / 150 solved
+[##################--]  142 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
