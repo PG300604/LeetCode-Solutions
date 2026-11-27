@@ -54,7 +54,7 @@ LeetCode-Solutions/
 |   +-- 0022-generate-parentheses/
 |   +-- 0026-remove-duplicates/
 |   +-- 0027-remove-elements/
-|   +-- ... (142 problem packages)
+|   +-- ... (143 problem packages)
 +-- scripts/
 |   +-- update_readme.py
 +-- README.md
@@ -225,6 +225,7 @@ class Solution {
 | 3886 | [Sum of Sortable Integers](problems/3886-sum-of-sortable-integers) | `1` | 🔴 Hard |
 | 3934 | [Smallest Unique Subarray](problems/3934-smallest-unique-subarray) | `1` | 🔴 Hard |
 | 3942 | [Minimum Operations to Sort a Permutation](problems/3942-minimum-operations-to-sort-a-permutation) | `1` | 🟡 Medium |
+| 3946 | [Maximum Number of Items From Sale I](problems/3946-maximum-number-of-items-from-sale-i) | `1` | 🟡 Medium |
 | 3963 | [Create Grid With Exactly One Path](problems/3963-create-grid-with-exactly-one-path) | `1` | 🟢 Easy |
 | 3970 | [Shortest Path With At Most K Consecutive Identical Characters](problems/3970-shortest-path-with-at-most-k-consecutive-identical-characters) | `1` | 🟡 Medium |
 | 4043 | [Count Rotations With Exactly K Equal Adjacent Pairs](problems/4043-count-rotations-with-exactly-k-equal-adjacent-pairs) | `1` | 🟢 Easy |
@@ -252,7 +253,7 @@ class Solution {
 
 <!-- PROGRESS_START -->
 ```
-[##################--]  142 / 150 solved
+[###################-]  143 / 150 solved
 ```
 <!-- PROGRESS_END -->
 
